@@ -1,0 +1,512 @@
+[
+  {
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/270701/Working4U/Inginer-Retele-Electrice-(Suport-in-Proiectare)",
+    "title": "Inginer Retele Electrice (Suport in Proiectare)",
+    "company": "WORKING UP LC SOLUTIONS SRL",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:12:21.317Z",
+    "status": "scraped",
+    "tags": [
+      "Proiectare retele",
+      "Instalatii electrice"
+    ],
+    "matchPercentage": 75,
+    "reason": "Potrivire buna - proiectare retele electrice, domeniul energetic"
+  },
+  {
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/270700/Working4U/Inginer-Proiectare-Retele-Electrice",
+    "title": "Inginer Proiectare Retele Electrice",
+    "company": "WORKING UP LC SOLUTIONS SRL",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:12:21.317Z",
+    "status": "scraped",
+    "tags": [
+      "Proiectare retele",
+      "Energie electrica"
+    ],
+    "matchPercentage": 80,
+    "reason": "Potrivire puternica - proiectare retele de transport si distributie energie electrica"
+  },
+  {
+    "url": "https://www.teamland.ro/apply.php?id=1005#content",
+    "title": "Inginer productie",
+    "company": "TEAMLAND SRL",
+    "location": [
+      "Brașov, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:11:56.466Z",
+    "status": "scraped",
+    "tags": [
+      "Mentenanta industriala",
+      "Productie"
+    ],
+    "matchPercentage": 40,
+    "reason": "Productie industriala partial relevanta - mentenanta industriala posibila"
+  },
+  {
+    "url": "https://www.teamland.ro/apply.php?id=1096#content",
+    "title": "Inginer instalatii - Mentenanta",
+    "company": "TEAMLAND SRL",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:10:58.035Z",
+    "status": "scraped",
+    "tags": [
+      "Instalatii electrice",
+      "Mentenanta"
+    ],
+    "matchPercentage": 70,
+    "reason": "Potrivire buna - instalatii electrice si mentenanta industriala"
+  },
+  {
+    "url": "https://www.teamland.ro/apply.php?id=1073#content",
+    "title": "Internship - Inginer electric",
+    "company": "TEAMLAND SRL",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:10:58.035Z",
+    "status": "scraped",
+    "tags": [
+      "Inginerie electrica",
+      "Internship"
+    ],
+    "matchPercentage": 85,
+    "reason": "Potrivire foarte buna - internship exact pe domeniul de studiu"
+  },
+  {
+    "url": "https://www.teamland.ro/apply.php?id=1258#content",
+    "title": "Inginer proiectare si dezvoltare scule si dispozitive",
+    "company": "TEAMLAND SRL",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:10:37.212Z",
+    "status": "scraped",
+    "tags": [
+      "Proiectare",
+      "CAD"
+    ],
+    "matchPercentage": 65,
+    "reason": "Proiectare dispozitive - relevanta partiala pentru CAD si proiectare"
+  },
+  {
+    "url": "https://www.teamland.ro/apply.php?id=1240#content",
+    "title": "Internship inginer electric",
+    "company": "TEAMLAND SRL",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:10:37.212Z",
+    "status": "scraped",
+    "tags": [
+      "Inginerie electrica",
+      "Internship"
+    ],
+    "matchPercentage": 85,
+    "reason": "Internship electric - potrivire excelenta pentru student"
+  },
+  {
+    "url": "https://www.teamland.ro/apply.php?id=1397#content",
+    "title": "Inginer automatist",
+    "company": "TEAMLAND SRL",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:10:36.293Z",
+    "status": "scraped",
+    "tags": [
+      "Automatizari",
+      "Sisteme control"
+    ],
+    "matchPercentage": 90,
+    "reason": "Potrivire excelenta - automatizari industriale si reglaj automat"
+  },
+  {
+    "url": "https://www.ascentjobs.ro/speciaist-statii-electrice/",
+    "title": "Specialist stații electrice",
+    "company": "ASCENT GROUP INTERNAŢIONAL SRL",
+    "location": [
+      "București, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:12:21.317Z",
+    "status": "scraped",
+    "tags": [
+      "Energie electrica",
+      "Statii electrice"
+    ],
+    "matchPercentage": 80,
+    "reason": "Statii electrice - domeniul energiei electrice, proiectare si analiza"
+  },
+  {
+    "url": "https://www.leohr.ro/jobs/inginer-electric-proiectare-instalatii-electrice-industriale/503/",
+    "title": "Inginer electric proiectare - Instalatii Electrice Industriale",
+    "company": "LEOHR S.R.L.",
+    "location": [
+      "Bucuresti,Sector 2, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:09:22.383Z",
+    "status": "scraped",
+    "tags": [
+      "Instalatii electrice",
+      "Proiectare"
+    ],
+    "matchPercentage": 85,
+    "reason": "Proiectare instalatii electrice industriale - potrivire puternica"
+  },
+  {
+    "url": "https://www.chorus.ro/Careers/JobApplication/45?job=Inginer%20Ofertare%20Scule%20Electrice",
+    "title": "Inginer Ofertare Scule Electrice",
+    "company": "CHORUS SRL",
+    "location": [
+      "Bucuresti,Mogosoaia, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:08:55.479Z",
+    "status": "scraped",
+    "tags": [
+      "Scule electrice",
+      "Ofertare"
+    ],
+    "matchPercentage": 40,
+    "reason": "Ofertare scule electrice - cunostinte de electronica necesare dar focus pe vanzari"
+  },
+  {
+    "url": "https://conlangrup.ro/job/angajam-inginer-instalatii-electrice-sanitare-mecanice/",
+    "title": "ANGAJĂM INGINER INSTALAȚII ELECTRICE, SANITARE, MECANICE",
+    "company": "CONLAN SRL",
+    "location": [
+      "Sibiu, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:08:50.470Z",
+    "status": "scraped",
+    "tags": [
+      "Instalatii electrice",
+      "Proiectare"
+    ],
+    "matchPercentage": 75,
+    "reason": "Inginer instalatii electrice - domeniu relevant"
+  },
+  {
+    "url": "https://urbica.ro/cariere-urbica/#3",
+    "title": "Instalații sanitare sau electrice",
+    "company": "URBICA BUCIUM S.R.L.",
+    "location": [
+      "Iași, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:08:50.470Z",
+    "status": "scraped",
+    "tags": [
+      "Instalatii electrice",
+      "Constructii"
+    ],
+    "matchPercentage": 50,
+    "reason": "Instalatii electrice partial relevante, dar si sanitare"
+  },
+  {
+    "url": "https://www.chorus.ro/Careers/JobApplication/15?job=Electrician%20uzinare%20tablouri%20electrice",
+    "title": "Electrician uzinare tablouri electrice",
+    "company": "CHORUS SRL",
+    "location": [
+      "Mogosoaia, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:08:40.431Z",
+    "status": "scraped",
+    "tags": [
+      "Tablouri electrice",
+      "Electricitate"
+    ],
+    "matchPercentage": 60,
+    "reason": "Uzinare tablouri electrice - electricitate practica dar nivel tehnic inferior"
+  },
+  {
+    "url": "https://www.neptun-gears.ro/cariere/",
+    "title": "Programator Mașini CNC",
+    "company": "NEPTUN SA",
+    "location": [
+      "Campina, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:08:22.763Z",
+    "status": "scraped",
+    "tags": [
+      "Programare",
+      "Automatizari"
+    ],
+    "matchPercentage": 50,
+    "reason": "Programare CNC - relevanta partiala pentru automatizari si programare"
+  },
+  {
+    "url": "https://recrutaresiselectie.ro/job/electrician-instalatii-electrice-si-sisteme-fotovoltaice/",
+    "title": "Electrician – Instalații Electrice și Sisteme Fotovoltaice",
+    "company": "HUMAN CAPITAL SRL",
+    "location": [
+      "Bucuresti,Ilfov, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:08:21.584Z",
+    "status": "scraped",
+    "tags": [
+      "Energie regenerabila",
+      "Instalatii electrice"
+    ],
+    "matchPercentage": 80,
+    "reason": "Instalatii electrice si fotovoltaice - energie regenerabila si instalatii"
+  },
+  {
+    "url": "https://www.prohuman.ro/candidati/jobs/PlannerProiecteElectrice",
+    "title": "Planner proiecte electrice",
+    "company": "PROHUMAN APT S.R.L.",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:06:05.710Z",
+    "status": "scraped",
+    "tags": [
+      "Proiectare",
+      "Planificare"
+    ],
+    "matchPercentage": 75,
+    "reason": "Planificare proiecte electrice - proiectare si management"
+  },
+  {
+    "url": "https://www.prohuman.ro/candidati/jobs/InginerImplementareElectrice",
+    "title": "Inginer Implementare Electrice MT_IT",
+    "company": "PROHUMAN APT S.R.L.",
+    "location": [
+      "Cluj-Napoca, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:06:05.710Z",
+    "status": "scraped",
+    "tags": [
+      "Instalatii electrice",
+      "Distributie energie"
+    ],
+    "matchPercentage": 80,
+    "reason": "Implementare instalatii electrice MT/IT - distributie energie electrica"
+  },
+  {
+    "url": "https://www.tehnoglobal.ro/job/inginer-vanzari-actionari-electrice/12",
+    "title": "Inginer vânzări acționări electrice",
+    "company": "TEHNOGLOBAL ERA S.A.",
+    "location": [
+      "Cluj-Napoca, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:04:52.590Z",
+    "status": "scraped",
+    "tags": [
+      "Actiuni electrice",
+      "Vanzari"
+    ],
+    "matchPercentage": 65,
+    "reason": "Actiuni electrice - cunostinte tehnice dar focus pe vanzari"
+  },
+  {
+    "url": "https://www.teamland.ro/apply.php?id=1081#content",
+    "title": "Electrician automatizari",
+    "company": "TEAMLAND SRL",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:10:58.035Z",
+    "status": "scraped",
+    "tags": [
+      "Automatizare și reglaj",
+      "Control industrial"
+    ],
+    "matchPercentage": 85,
+    "reason": "Post în automatizări industriale, direct relevant pentru competențele de automatizări și control industrial."
+  },
+  {
+    "url": "https://careers.segulatechnologies.com/ro/annonce/4576599-electrician-productie-echipamente-industriale-115400-mioveni",
+    "title": "Electrician Producție Echipamente Industriale",
+    "company": "BEYT SEGULA SRL",
+    "location": [
+      "Mioveni, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:07:55.125Z",
+    "status": "scraped",
+    "tags": [
+      "Echipamente electrice",
+      "Scheme electrice"
+    ],
+    "matchPercentage": 80,
+    "reason": "Montaj electric de joasă tensiune, interpretare scheme electrice și testarea echipamentelor electroenergetice."
+  },
+  {
+    "url": "https://www.prohuman.ro/candidati/jobs/Automatist-Tehnician-Automatizări",
+    "title": "Automatist (Tehnician Automatizări)",
+    "company": "PROHUMAN APT S.R.L.",
+    "location": [
+      "Craiova, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:04:18.310Z",
+    "status": "scraped",
+    "tags": [
+      "Automatizare și reglaj",
+      "Control industrial"
+    ],
+    "matchPercentage": 75,
+    "reason": "Post de automatist, relevant pentru sisteme de automatizare și control industrial."
+  },
+  {
+    "url": "https://www.prohuman.ro/candidati/jobs/Automatist-Tehnician-automatizari1",
+    "title": "Automatist (Tehnician automatizări)",
+    "company": "PROHUMAN APT S.R.L.",
+    "location": [
+      "Craiova, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:04:05.907Z",
+    "status": "scraped",
+    "tags": [
+      "Automatizare și reglaj",
+      "Control industrial"
+    ],
+    "matchPercentage": 75,
+    "reason": "Post de automatist, relevant pentru sisteme de automatizare și control industrial."
+  },
+  {
+    "url": "https://d-career.org/Draexlmaier/job/Hunedoara-Inginer-automatist-PLC-331110/1400319833/",
+    "title": "Inginer automatist PLC",
+    "company": "DAR DRAXLMAIER AUTOMOTIVE SRL",
+    "location": [
+      "Hunedoara, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:07:24.074Z",
+    "status": "scraped",
+    "tags": [
+      "Automatizare și reglaj",
+      "Control industrial"
+    ],
+    "matchPercentage": 90,
+    "reason": "Post de inginer automatist PLC, coincidență directă cu controlul industrial și automatizările."
+  },
+  {
+    "url": "https://www.leohr.ro/jobs/automation-plc-specialist-engineer/349/",
+    "title": "Automation PLC Specialist Engineer",
+    "company": "LEOHR S.R.L.",
+    "location": [
+      "Timișoara, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-17T13:06:13.938Z",
+    "status": "scraped",
+    "tags": [
+      "Automatizare și reglaj",
+      "Control industrial"
+    ],
+    "matchPercentage": 90,
+    "reason": "Specialist automatizări PLC, direct relevant pentru competențele de automatizare și control industrial."
+  },
+  {
+    "url": "https://rian-partners.com/en/job/automation-engineer-plc-programming-pitesti/",
+    "title": "Automation Engineer – Plc Progamming",
+    "company": "RIAN &amp; PARTENERS CONSULTING SRL",
+    "location": [
+      "Pitești, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-15T13:11:03.375Z",
+    "status": "scraped",
+    "tags": [
+      "actionari electrice",
+      "SCADA"
+    ],
+    "matchPercentage": 85,
+    "reason": "Rol de programare PLC în automatizări industriale, direct în domeniul automatizărilor."
+  },
+  {
+    "url": "https://careers.mahle.com/job/Timisoara-PLC-Programing-Engineer/1426428033/",
+    "title": "PLC Programing Engineer",
+    "company": "MAHLE COMPONENTE DE MOTOR SRL",
+    "location": [
+      "Timișoara, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-15T13:10:09.206Z",
+    "status": "scraped",
+    "tags": [
+      "sisteme de automatizare",
+      "microprocesoare"
+    ],
+    "matchPercentage": 85,
+    "reason": "Programare PLC pentru automatizări industriale, potrivit competențelor de control industrial."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/plc-programator-diagnostik-bonus-250k",
+    "title": "PLC Programátor/Diagnostik + Bonus 250k",
+    "company": "GREEN LIGHT REPUBLIC S.R.L.",
+    "location": [
+      "Prumyslova, Prague 15, Czechia, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-05T11:49:12.668Z",
+    "status": "scraped",
+    "tags": [
+      "sisteme de automatizare",
+      "microprocesoare"
+    ],
+    "matchPercentage": 70,
+    "reason": "Programare PLC și diagnostic în automatizări, potrivit pentru competențele de control industrial, deși poziția în Cehia presupune relocare."
+  },
+  {
+    "url": "https://rian-partners.com/job/inginer-automatist-progaramare-plc/",
+    "title": "Inginer Automatist – Programare Plc",
+    "company": "RIAN &amp; PARTENERS CONSULTING SRL",
+    "location": [
+      "Pitești, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-03T12:49:14.376Z",
+    "status": "scraped",
+    "tags": [
+      "sisteme de automatizare",
+      "reglaj automat"
+    ],
+    "matchPercentage": 85,
+    "reason": "Programare PLC în automatizări industriale, aliniat cu competențele de automatizare și reglaj."
+  },
+  {
+    "url": "https://rian-partners.com/job/automation-engineer-plc-programming-pitesti/",
+    "title": "Automation Engineer – Plc Progamming",
+    "company": "RIAN &amp; PARTENERS CONSULTING SRL",
+    "location": [
+      "Pitești, Romania"
+    ],
+    "salary": null,
+    "date": "2026-09-03T12:49:14.376Z",
+    "status": "scraped",
+    "tags": [
+      "actionari electrice",
+      "microprocesoare"
+    ],
+    "matchPercentage": 85,
+    "reason": "Rol de automatizare cu programare PLC în sectorul automotive, direct în domeniul automatizărilor industriale."
+  }
+]
