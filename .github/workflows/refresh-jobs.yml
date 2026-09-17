@@ -1,0 +1,70 @@
+# Reruleaza matchingul si republica widgetul. jobs.json e importat la build time,
+# deci orice actualizare de joburi are nevoie si de un redeploy.
+name: 2. Reimprospateaza joburile
+
+on:
+  workflow_dispatch:
+    inputs:
+      reface_profil:
+        description: 'Reciteste curricula si regenereaza profilul de competente'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # in fiecare luni la 04:00 UTC
+    - cron: '0 4 * * 1'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instaleaza dependinte
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          npm install -g opencode-ai@latest
+
+      - name: Genereaza joburile
+        env:
+          REFACE_PROFIL: ${{ inputs.reface_profil }}
+        run: |
+          if [ "$REFACE_PROFIL" = "true" ]; then
+            node scripts/generate_jobs.mjs --rebuild-profile
+          else
+            node scripts/generate_jobs.mjs
+          fi
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add jobs.json conf/widget.json
+          if git diff --cached --quiet; then
+            echo "Nimic de commis"
+          else
+            git commit -m "auto: actualizeaza jobs.json ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+  deploy:
+    needs: refresh
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    # fara asta, workflow-ul apelat nu vede WIDGET_TOKEN
+    secrets: inherit
