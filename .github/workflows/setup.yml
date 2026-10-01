@@ -1,0 +1,162 @@
+# Singurul pas manual de care are nevoie o facultate dupa ce creeaza repo-ul din template.
+name: 1. Configureaza widgetul facultatii
+
+on:
+  workflow_dispatch:
+    inputs:
+      curriculum_url:
+        description: 'Link catre planul de invatamant al facultatii'
+        required: true
+        type: string
+      universitate:
+        description: 'Numele universitatii (folosit in registrul organizatiei)'
+        required: false
+        type: string
+      facultate:
+        description: 'Numele facultatii (optional, altfel se deduce din curricula)'
+        required: false
+        type: string
+      titlu:
+        description: 'Titlul afisat in widget'
+        required: false
+        default: 'Joburi pentru studenti'
+        type: string
+      culoare:
+        description: 'Culoarea temei, hex'
+        required: false
+        default: '#4f46e5'
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instaleaza dependinte
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          npm install -g opencode-ai@latest
+
+      # Generarea joburilor dureaza ~15 minute, deci o facem si o commitem inainte
+      # de pasii de Pages, ca o eroare acolo sa nu arunce munca la gunoi.
+      - name: Genereaza joburile din curricula
+        env:
+          CURRICULUM_URL: ${{ inputs.curriculum_url }}
+          UNIVERSITATE: ${{ inputs.universitate }}
+          FACULTATE: ${{ inputs.facultate }}
+          TITLU: ${{ inputs.titlu }}
+          CULOARE: ${{ inputs.culoare }}
+        run: |
+          node scripts/generate_jobs.mjs \
+            --curriculum="$CURRICULUM_URL" \
+            --university="$UNIVERSITATE" \
+            --faculty="$FACULTATE" \
+            --title="$TITLU" \
+            --color="$CULOARE"
+
+      - name: Commit joburile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add jobs.json conf/widget.json
+          if git diff --cached --quiet; then
+            echo "Nimic de commis"
+          else
+            git commit -m "setup: genereaza joburile facultatii"
+            git push
+          fi
+
+      # GITHUB_TOKEN nu poate crea un site Pages (endpointul cere drepturi de
+      # administrator). Daca organizatia are secretul WIDGET_TOKEN, Pages se
+      # activeaza singur; altfel trebuie activat o data din Settings -> Pages.
+      - name: Activeaza GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+          token: ${{ secrets.WIDGET_TOKEN || github.token }}
+
+      - name: Explica esecul activarii Pages
+        if: failure() && steps.pages.outcome == 'failure'
+        run: |
+          {
+            echo "## GitHub Pages nu a putut fi activat automat"
+            echo ""
+            echo "Joburile au fost generate si commise — nu s-a pierdut nimic."
+            echo ""
+            echo "Activeaza Pages o singura data, apoi reia acest workflow:"
+            echo ""
+            echo "1. **Settings → Pages → Source** → alege **GitHub Actions**"
+            echo "2. Ruleaza din nou **1. Configureaza widgetul facultatii**"
+            echo ""
+            echo "Ca sa se activeze singur pe toate repo-urile viitoare, adauga"
+            echo "un secret de organizatie numit \`WIDGET_TOKEN\` (PAT cu"
+            echo "permisiunile *Administration: write* si *Pages: write*)."
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1
+
+      - name: Salveaza URL-ul de Pages si codul de integrare
+        env:
+          PAGES_URL: ${{ steps.pages.outputs.base_url }}
+        run: node scripts/set_pages_url.mjs --url="$PAGES_URL"
+
+      # Linkul apare sub "About", in dreapta sus pe pagina repository-ului.
+      # Cere Administration: write, pe care GITHUB_TOKEN nu il poate avea.
+      - name: Pune linkul widgetului in descrierea repository-ului
+        env:
+          GH_TOKEN: ${{ secrets.WIDGET_TOKEN }}
+          PAGES_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::Fara WIDGET_TOKEN nu pot seta linkul pe pagina repository-ului."
+            exit 0
+          fi
+          gh api -X PATCH "repos/$GITHUB_REPOSITORY" -f homepage="$PAGES_URL" --silent
+
+      - name: Commit codul de integrare
+        run: |
+          git add conf/widget.json EMBED.md
+          if git diff --cached --quiet; then
+            echo "Nimic de commis"
+          else
+            git commit -m "setup: adauga codul de integrare"
+            git push
+          fi
+
+      # Completeaza intrarea creata de workflow-ul din template cu linkul live.
+      # Universitatea si facultatea vin din conf/widget.json.
+      - name: Actualizeaza registrul organizatiei
+        env:
+          GH_TOKEN: ${{ secrets.WIDGET_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::Fara WIDGET_TOKEN nu pot actualiza registrul organizatiei."
+            exit 0
+          fi
+          node scripts/register_faculty.mjs \
+            --registry "${{ github.repository_owner }}/facultati-jobs-widget" \
+            --config conf/widget.json \
+            --repo "${{ github.repository }}"
+
+  deploy:
+    needs: configure
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    # fara asta, workflow-ul apelat nu vede WIDGET_TOKEN
+    secrets: inherit

@@ -1,0 +1,157 @@
+# Se ruleaza in repository-ul template. Creeaza repository-ul unei facultati in
+# aceeasi organizatie si porneste configurarea in el — clientul nu face nimic altceva.
+name: 0. Creeaza widget pentru o facultate
+
+on:
+  workflow_dispatch:
+    inputs:
+      universitate:
+        description: 'Numele universitatii (ex: Universitatea Babes-Bolyai)'
+        required: true
+        type: string
+      facultate:
+        description: 'Numele facultatii (ex: Facultatea de Matematica si Informatica, UBB)'
+        required: true
+        type: string
+      curriculum_url:
+        description: 'Link catre planul de invatamant al facultatii'
+        required: true
+        type: string
+      titlu:
+        description: 'Titlul afisat in widget'
+        required: false
+        default: 'Joburi pentru studenti'
+        type: string
+      culoare:
+        description: 'Culoarea temei, hex'
+        required: false
+        default: '#4f46e5'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  creeaza:
+    runs-on: ubuntu-latest
+    env:
+      # PAT fine-grained, secret de organizatie. GITHUB_TOKEN nu poate crea repository-uri.
+      GH_TOKEN: ${{ secrets.WIDGET_TOKEN }}
+      ORG: ${{ github.repository_owner }}
+      TEMPLATE: ${{ github.repository }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verifica secretul
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Lipseste secretul de organizatie WIDGET_TOKEN."
+            exit 1
+          fi
+
+      - name: Calculeaza numele repository-ului
+        id: slug
+        env:
+          UNIVERSITATE: ${{ inputs.universitate }}
+          FACULTATE: ${{ inputs.facultate }}
+        run: |
+          SLUG_UNIV=$(node scripts/university_slug.mjs "$UNIVERSITATE")
+          SLUG_FAC=$(node scripts/faculty_slug.mjs "$FACULTATE")
+          NAME="${SLUG_UNIV}-${SLUG_FAC}"
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+          echo "Repository nou: $ORG/$NAME"
+
+      - name: Verifica daca repository-ul exista deja
+        env:
+          NAME: ${{ steps.slug.outputs.name }}
+        run: |
+          if gh api "repos/$ORG/$NAME" >/dev/null 2>&1; then
+            echo "::error::$ORG/$NAME exista deja. Ruleaza configurarea direct in el."
+            exit 1
+          fi
+
+      - name: Creeaza repository-ul din template
+        env:
+          NAME: ${{ steps.slug.outputs.name }}
+          FACULTATE: ${{ inputs.facultate }}
+        run: |
+          gh api -X POST "repos/$TEMPLATE/generate" \
+            -f owner="$ORG" \
+            -f name="$NAME" \
+            -f description="Widget de joburi — $FACULTATE" \
+            -F private=false
+
+      - name: Seteaza linkul GitHub Pages in About
+        env:
+          NAME: ${{ steps.slug.outputs.name }}
+        run: |
+          gh api -X PATCH "repos/$ORG/$NAME" \
+            -f homepage="https://$ORG.github.io/$NAME/"
+
+      # Workflow-urile nu sunt inregistrate instant dupa creare
+      - name: Asteapta ca workflow-urile sa fie gata
+        env:
+          NAME: ${{ steps.slug.outputs.name }}
+        run: |
+          for i in $(seq 1 30); do
+            if gh api "repos/$ORG/$NAME/actions/workflows" --jq '.workflows[].path' 2>/dev/null | grep -q 'setup.yml'; then
+              echo "Workflow-urile sunt gata."
+              exit 0
+            fi
+            echo "Astept... ($i/30)"
+            sleep 5
+          done
+          echo "::error::Workflow-urile nu au aparut in $ORG/$NAME dupa 150 de secunde."
+          exit 1
+
+      - name: Porneste configurarea
+        env:
+          NAME: ${{ steps.slug.outputs.name }}
+          UNIVERSITATE: ${{ inputs.universitate }}
+          FACULTATE: ${{ inputs.facultate }}
+          CURRICULUM_URL: ${{ inputs.curriculum_url }}
+          TITLU: ${{ inputs.titlu }}
+          CULOARE: ${{ inputs.culoare }}
+        run: |
+          gh workflow run setup.yml --repo "$ORG/$NAME" \
+            -f curriculum_url="$CURRICULUM_URL" \
+            -f universitate="$UNIVERSITATE" \
+            -f facultate="$FACULTATE" \
+            -f titlu="$TITLU" \
+            -f culoare="$CULOARE"
+
+      # Intrarea primeste linkul live mai tarziu, din repository-ul facultatii
+      - name: Inregistreaza facultatea in registru
+        env:
+          NAME: ${{ steps.slug.outputs.name }}
+          UNIVERSITATE: ${{ inputs.universitate }}
+          FACULTATE: ${{ inputs.facultate }}
+        run: |
+          node scripts/register_faculty.mjs \
+            --registry "$ORG/facultati-jobs-widget" \
+            --university "$UNIVERSITATE" \
+            --faculty "$FACULTATE" \
+            --repo "$ORG/$NAME"
+
+      - name: Rezumat
+        env:
+          NAME: ${{ steps.slug.outputs.name }}
+          FACULTATE: ${{ inputs.facultate }}
+        run: |
+          {
+            echo "## Widget creat pentru $FACULTATE"
+            echo ""
+            echo "- Repository: https://github.com/$ORG/$NAME"
+            echo "- Configurarea ruleaza acum: https://github.com/$ORG/$NAME/actions"
+            echo "- Registru: https://github.com/$ORG/facultati-jobs-widget"
+            echo ""
+            echo "Dureaza in general 10-20 de minute. Cand se termina, codul de"
+            echo "integrare apare in \`EMBED.md\` din repository-ul nou, iar"
+            echo "intrarea din registru primeste linkul live al widgetului."
+          } >> "$GITHUB_STEP_SUMMARY"

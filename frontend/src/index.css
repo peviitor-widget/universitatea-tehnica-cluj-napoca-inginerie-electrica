@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+button,
+a,
+select,
+input[type="button"],
+input[type="submit"],
+input[type="checkbox"],
+input[type="radio"],
+[role="button"],
+[role="option"],
+[role="tab"],
+label {
+  cursor: pointer;
+}
+
+button:disabled,
+input:disabled,
+a[aria-disabled="true"],
+[disabled] {
+  cursor: not-allowed;
+}
+
+:root,
+.light {
+  --bg: #f8fafc;
+  --bg-card: #ffffff;
+  --text: #475569;
+  --text-h: #0f172a;
+  --border: #e2e8f0;
+  --code-bg: #f1f5f9;
+  --accent: #4f46e5;
+  /* derivate din --accent ca sa urmeze culoarea aleasa de facultate */
+  --accent-bg: color-mix(in srgb, var(--accent) 8%, transparent);
+  --accent-border: color-mix(in srgb, var(--accent) 40%, transparent);
+  --accent-hover: color-mix(in srgb, var(--accent) 85%, #000);
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --scrollbar-thumb: rgba(100, 116, 139, 0.3);
+  --scrollbar-thumb-hover: rgba(100, 116, 139, 0.55);
+
+  --sans: "Outfit", "Inter", system-ui, sans-serif;
+  --heading: "Outfit", "Inter", system-ui, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  font-family: var(--sans);
+  color-scheme: light dark;
+  color: var(--text);
+  background-color: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dark {
+  --bg: #090d16;
+  --bg-card: #111827;
+  --text: #94a3b8;
+  --text-h: #f8fafc;
+  --border: #1f2937;
+  --code-bg: #1e293b;
+  --accent: #6366f1;
+  --accent-bg: color-mix(in srgb, var(--accent) 15%, transparent);
+  --accent-border: color-mix(in srgb, var(--accent) 50%, transparent);
+  --accent-hover: color-mix(in srgb, var(--accent) 85%, #fff);
+  --shadow: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+  --scrollbar-thumb: rgba(148, 163, 184, 0.25);
+  --scrollbar-thumb-hover: rgba(148, 163, 184, 0.45);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bg-bg { background-color: var(--bg); }
+.bg-bg-card { background-color: var(--bg-card); }
+.bg-code-bg { background-color: var(--code-bg); }
+.text-text { color: var(--text); }
+.text-text-h { color: var(--text-h); }
+.border-border { border-color: var(--border); }
+.text-accent { color: var(--accent); }
+.bg-accent { background-color: var(--accent); }
+
+/* Butoane si badge-uri care urmeaza culoarea aleasa de facultate */
+.btn-accent {
+  background-color: var(--accent);
+  color: #fff;
+}
+.btn-accent:hover {
+  background-color: var(--accent-hover);
+}
+
+.btn-accent-outline {
+  color: var(--accent);
+  border-color: var(--accent-border);
+}
+.btn-accent-outline:hover {
+  border-color: var(--accent);
+  background-color: var(--accent-bg);
+}
+
+*:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+input:focus-visible, button[aria-haspopup="listbox"]:focus-visible {
+  outline: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}

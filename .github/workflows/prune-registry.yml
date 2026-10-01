@@ -1,0 +1,47 @@
+# Scoate din registrul organizatiei facultatile al caror repository a fost sters.
+# Se ruleaza doar manual: GitHub nu are un trigger pentru stergerea unui repository.
+name: 3. Curata registrul de repository-uri sterse
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Doar afiseaza ce ar fi eliminat, fara sa modifice registrul'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  curata:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.WIDGET_TOKEN }}
+      ORG: ${{ github.repository_owner }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verifica secretul
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Lipseste secretul de organizatie WIDGET_TOKEN."
+            exit 1
+          fi
+
+      - name: Curata registrul
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            node scripts/prune_registry.mjs --registry "$ORG/facultati-jobs-widget" --dry-run
+          else
+            node scripts/prune_registry.mjs --registry "$ORG/facultati-jobs-widget"
+          fi
