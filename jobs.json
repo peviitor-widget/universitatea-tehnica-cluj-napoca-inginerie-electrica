@@ -1,5 +1,294 @@
 [
   {
+    "url": "https://mediere.anofm.ro/app/module/mediere/job/3411167",
+    "title": "ELECTRICIAN MONTARE SI REPARATII APARATAJ ELECTRIC DE PROTECTIE, RELEE, AUTOMATIZARE",
+    "company": "AVIS 3000 S.R.L.",
+    "location": [
+      "Mintia, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:21:23.702Z",
+    "status": "scraped",
+    "tags": [
+      "relee",
+      "automatizare"
+    ],
+    "matchPercentage": 95,
+    "reason": "Electrician cu aparataj electric, protectie, relee si automatizare - direct relevant."
+  },
+  {
+    "url": "https://mediere.anofm.ro/app/module/mediere/job/3402542",
+    "title": "ELECTRICIAN MONTARE SI REPARATII APARATAJ ELECTRIC DE PROTECTIE, RELEE, AUTOMATIZARE",
+    "company": "MODERN CALOR SA",
+    "location": [
+      "Pitești, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:21:19.902Z",
+    "status": "scraped",
+    "tags": [
+      "aparataj electric",
+      "automatizare"
+    ],
+    "matchPercentage": 95,
+    "reason": "Electrician - fara experienta ceruta, nivel entry-level si domeniu direct relevant."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-software-industrial-plc-scada-4",
+    "title": "Inginer Software industrial (PLC &amp; SCADA)",
+    "company": "VERDOM AUTOMATION S.R.L.",
+    "location": [
+      "București, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:18:58.124Z",
+    "status": "scraped",
+    "tags": [
+      "PLC",
+      "SCADA"
+    ],
+    "matchPercentage": 95,
+    "reason": "PLC si SCADA se potrivesc direct cu automatizarea si conversia de putere."
+  },
+  {
+    "url": "https://multijobs.ro/job/inginer-electric-energetica-electrotehnica/3643",
+    "title": "Inginer electric- energetica/electrotehnica",
+    "company": "TIAB SA",
+    "location": [
+      "Târgu Mureș, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-07T15:09:09.279Z",
+    "status": "scraped",
+    "tags": [
+      "analiza retelelor",
+      "dimensionare echipamente"
+    ],
+    "matchPercentage": 90,
+    "reason": "domeniu direct energetic/electrotehnic si nivel potrivit pentru junior/absolvent."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-proiectant-electric-45",
+    "title": "INGINER PROIECTANT ELECTRIC",
+    "company": "ELECTROTEHNICA EM S.A.",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-06T14:47:35.977Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare instalatii",
+      "CAD/CAE electric"
+    ],
+    "matchPercentage": 90,
+    "reason": "proiectare electrica directa, fara cerinte de experienta specificate; nivel potrivit."
+  },
+  {
+    "url": "https://mediere.anofm.ro/app/module/mediere/job/3403564",
+    "title": "INGINER ELECTROENERGETICA",
+    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
+    "location": [
+      "Focsani, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:23:12.059Z",
+    "status": "scraped",
+    "tags": [
+      "energetică",
+      "proiectare instalații electrice"
+    ],
+    "matchPercentage": 90,
+    "reason": "Inginer electroenergetică cu sub 3 ani experiență, potrivire directă cu domeniul de producție/transport/distribuție și nivelul entry."
+  },
+  {
+    "url": "https://mediere.anofm.ro/app/module/mediere/job/3403575",
+    "title": "INGINER ELECTROENERGETICA",
+    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
+    "location": [
+      "Municipiul braila, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:23:12.059Z",
+    "status": "scraped",
+    "tags": [
+      "energetică",
+      "mentenanță electrică"
+    ],
+    "matchPercentage": 90,
+    "reason": "Inginer electroenergetică cu sub 3 ani experiență, potrivire directă cu domeniul de distribuție a energiei electrice și nivelul entry."
+  },
+  {
+    "url": "https://www.ejobs.ro/user/locuri-de-munca/inginer-proiectant-electric-r-d-si-prototipare/1987339",
+    "title": "Inginer proiectant electric - R&amp;D si prototipare",
+    "company": "DELTAMED AVIATION S.R.L.",
+    "location": [
+      "Gilau,Floresti,Clujnapoca, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:26:40.132Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare de instalatii electrice",
+      "proiectare cu ajutorul calculatorului"
+    ],
+    "matchPercentage": 88,
+    "reason": "Proiectare electrica R&D si prototipare foloseste direct competentele de proiectare, simulare si CAD/CAE electric la nivel entry-level pentru absolventi."
+  },
+  {
+    "url": "https://fjobs.ro/job/inginer-proiectare-electrica/",
+    "title": "Inginer Proiectare Electrică",
+    "company": "PROFESIONAL LEASING S.R.L.",
+    "location": [
+      "Bacau, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:23:14.170Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare instalații electrice",
+      "echipamente electrice"
+    ],
+    "matchPercentage": 88,
+    "reason": "Inginer proiectare electrică pentru tablouri și posturi de transformare, potrivire directă cu proiectarea de instalații electrice și dimensionarea echipamentelor, nivel entry."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-service-automatist-1",
+    "title": "Inginer SERVICE Automatist",
+    "company": "SIPA ENGINEERING ROMANIA SRL",
+    "location": [
+      "Remote, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:27:17.819Z",
+    "status": "scraped",
+    "tags": [
+      "automatizare",
+      "reglaj automat"
+    ],
+    "matchPercentage": 85,
+    "reason": "Inginer service automatist foloseste direct automatizarea si reglajul automat, nivel potrivit."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-instalatii-electrice-si-sau-fotovoltaice",
+    "title": "Inginer Instalații Electrice și/sau Fotovoltaice",
+    "company": "CLIMA THERM CENTER SRL",
+    "location": [
+      "Soseaua Pacurari nr. 139, Iași, Judetul Iași, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:26:55.622Z",
+    "status": "scraped",
+    "tags": [
+      "instalatii electrice",
+      "energie regenerabila"
+    ],
+    "matchPercentage": 85,
+    "reason": "Inginer instalatii electrice si/sau fotovoltaice corespunde direct proiectarii electrice si surselor regenerabile."
+  },
+  {
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/270839/Electromontaj/Electrician-Circuite-Primare",
+    "title": "Electrician Circuite Primare",
+    "company": "GREEN ELECTROMONTAJ SRL",
+    "location": [
+      "Bucuresti,Craiova,Pitești, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-07T15:24:30.119Z",
+    "status": "scraped",
+    "tags": [
+      "instalatii electrice",
+      "securitate electrica"
+    ],
+    "matchPercentage": 85,
+    "reason": "Lucrări pe circuite primare în infrastructură energetică intră direct în domeniul instalațiilor electrice și al transportului de energie, la nivel de tehnician/entry."
+  },
+  {
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/251911/Siemens-Energy/Field-Service-Technician---Power-Transformers",
+    "title": "Field Service Technician - Power Transformers",
+    "company": "SIEMENS ENERGY S.R.L.",
+    "location": [
+      "Bucuresti, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:26:47.321Z",
+    "status": "scraped",
+    "tags": [
+      "transformatoare",
+      "mentenanță electrică"
+    ],
+    "matchPercentage": 85,
+    "reason": "Field service pe transformatoare de putere se potrivește direct cu calculul/proiectarea transformatoarelor și mentenanța electrică, la nivel tehnic entry."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/proiectant-instalatii-electrice-curenti-slabi-bv-7",
+    "title": "Proiectant instalații electrice curenți slabi BV",
+    "company": "FARPLAS &amp; SMART SOLUTIONS S.A.",
+    "location": [
+      "507075 Ghimbav, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:25:19.388Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare instalatii",
+      "CAD electric"
+    ],
+    "matchPercentage": 82,
+    "reason": "Proiectarea instalatiilor electrice este o competenta de baza din planul tau de invatamant, potrivita ca domeniu."
+  },
+  {
+    "url": "https://www.jobradar24.ro/anunt/operator-mentenanta-electrica-z85q29",
+    "title": "Operator mentenanță electrică",
+    "company": "HOLCIM (ROMANIA) SA",
+    "location": [
+      "Nespecificat, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:23:14.170Z",
+    "status": "scraped",
+    "tags": [
+      "mentenanță electrică",
+      "securitate electrică"
+    ],
+    "matchPercentage": 82,
+    "reason": "Mentenanță electrică în producție, potrivit cu competențele de întreținere, masurări și securitate electrică, nivel entry."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-electrician-m-t-centrale-fotovoltaice-o-m-3",
+    "title": "Inginer Electrician M.T. centrale fotovoltaice O&amp;M",
+    "company": "SIMTEL TEAM S.A.",
+    "location": [
+      "Paulesti, Romania,Odoreu, Romania,Botiz, Romania,Satu Mare, Romania,Decebal, Romania,Vetis, Romania,Lazuri, Romania,Dorolt, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:25:39.269Z",
+    "status": "scraped",
+    "tags": [
+      "energie regenerabila",
+      "mentenanta electrica"
+    ],
+    "matchPercentage": 82,
+    "reason": "Inginer electrician la centrale fotovoltaice O&M se potrivește direct cu competențele electrice și energetice, nivel entry/junior."
+  },
+  {
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/268758/Electromontaj/Electrician-Circuite-Secundare",
+    "title": "Electrician Circuite Secundare",
+    "company": "GREEN ELECTROMONTAJ SRL",
+    "location": [
+      "Curtea De Arges,Pitești,Ramnicu Valcea, Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-08T15:17:52.757Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare de instalatii electrice",
+      "aplicarea normelor de securitate electrica"
+    ],
+    "matchPercentage": 80,
+    "reason": "Executia de circuite secundare in infrastructura energetica foloseste direct competentele de instalatii electrice si securitate electrica, la nivel de tehnician/entry."
+  },
+  {
     "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/269433/Electromontaj/Electrician-Circuite-Secundare-(PRAM)",
     "title": "Electrician Circuite Secundare (PRAM)",
     "company": "GREEN ELECTROMONTAJ SRL",
@@ -10,181 +299,164 @@
     "date": "2026-10-07T15:24:30.120Z",
     "status": "scraped",
     "tags": [
-      "instalatii electrice",
-      "echipamente electrice"
+      "proiectare de instalatii electrice",
+      "aplicarea normelor de securitate electrica"
     ],
-    "matchPercentage": 95,
-    "reason": "Electrician circuite secundare utilizeaza direct proiectarea si instalatiile electrice, fiind foarte relevant."
+    "matchPercentage": 80,
+    "reason": "Circuitele secundare PRAM din infrastructura energetica folosesc direct competentele de instalatii electrice si normele de securitate electrica, la nivel entry."
   },
   {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3396709",
-    "title": "INGINER ELECTROENERGETICA",
-    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
+    "url": "https://www.bestjobs.eu/loc-de-munca/tehnician-mentenanta-electromecanic-9",
+    "title": "TEHNICIAN MENTENANȚĂ / ELECTROMECANIC",
+    "company": "OLIN SRL",
     "location": [
-      "Municipiul bistrita, Romania"
+      "Strada Brazilor, Brașov, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:20:14.576Z",
+    "date": "2026-10-08T15:26:43.868Z",
     "status": "scraped",
     "tags": [
-      "proiectare instalatii electrice",
-      "mentenanță electrică"
+      "mentenanță electrică",
+      "masurări electrice"
     ],
-    "matchPercentage": 95,
-    "reason": "Inginer electroenergetică cu studii superioare și experiență puțin peste 3 ani este potrivire directă cu domeniul și nivelul."
+    "matchPercentage": 80,
+    "reason": "Rol de tehnician mentenanță/electromecanic, potrivit pentru competențele de mentenanță electrică și masurări, la nivel entry."
   },
   {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3397052",
-    "title": "INGINER ELECTROENERGETICA",
-    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
+    "url": "https://multijobs.ro/job/tehnician-electrician-om-centrale-fotovoltaice/5644",
+    "title": "Tehnician electrician O&amp;M centrale fotovoltaice",
+    "company": "MULTIDATA MANAGEMENT S.R.L.",
     "location": [
-      "Municipiul satu mare, Romania"
+      "Cluj-Napoca, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:20:14.576Z",
+    "date": "2026-10-08T15:23:53.708Z",
     "status": "scraped",
     "tags": [
-      "proiectare instalatii electrice",
-      "mentenanță electrică"
+      "mentenanta electrica",
+      "energie regenerabila"
     ],
-    "matchPercentage": 95,
-    "reason": "Inginer electroenergetică cu studii superioare și experiență puțin peste 3 ani este potrivire directă cu domeniul și nivelul."
+    "matchPercentage": 78,
+    "reason": "Tehnician O&M centrale fotovoltaice - întreținere și operare echipamente electrice, potrivit pentru entry-level."
   },
   {
-    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-electrician-instalatii-electrice",
-    "title": "Inginer electrician / instalații electrice",
-    "company": "ELECTROSTRAT S.R.L.",
+    "url": "https://www.ejobs.ro/user/locuri-de-munca/electrician-tehnician-electric/1987050",
+    "title": "Electrician/Tehnician electric",
+    "company": "SOLARPRO S.R.L.",
     "location": [
-      "Bucuresti, Romania,Cluj-Napoca, Romania,Timișoara, Romania"
+      "Caracal,Craiova, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:27:52.971Z",
+    "date": "2026-10-08T15:26:40.132Z",
     "status": "scraped",
     "tags": [
-      "proiectare instalatii electrice",
-      "dimensionarea echipamentelor electrice"
+      "integrarea surselor regenerabile",
+      "aplicarea normelor de securitate electrica"
     ],
-    "matchPercentage": 92,
-    "reason": "Inginer pentru instalații electrice, potrivire directă cu proiectarea și dimensionarea instalațiilor electrice."
+    "matchPercentage": 76,
+    "reason": "Mentenanta instalatiilor electrice ale unei centrale fotovoltaice se potriveste cu domeniul energetic si cu sursele regenerabile, desi cere certificare ANRE si experienta."
   },
   {
-    "url": "https://jobs.zollner.ro/jobposting/200cf519cd47080273854a74b5851a118191051b0",
-    "title": "Tehnician electronică",
-    "company": "ZES ZOLLNER ELECTRONIC SRL",
+    "url": "https://www.targuldecariere.ro/companii/holcim-romania-sa/18635/operator-mentenan-electric-turda",
+    "title": "Operator mentenanță electrică - Turda",
+    "company": "HOLCIM (ROMANIA) SA",
     "location": [
-      "Satu Mare, Romania"
+      "Turda, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:12:53.585Z",
+    "date": "2026-10-08T15:25:25.380Z",
     "status": "scraped",
     "tags": [
-      "electronica de putere",
-      "masurari electrice"
+      "mentenanta electrica",
+      "testare masurari"
     ],
-    "matchPercentage": 90,
-    "reason": "Depanarea si testarea placilor electronice foloseste direct competentele de electronica si masuratori."
+    "matchPercentage": 75,
+    "reason": "mentenanta electrica directa, potrivita nivelului junior/operator pentru absolvent."
   },
   {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3392132",
-    "title": "TEHNICIAN ELECTRONICA",
-    "company": "BLUESPACE TECHNOLOGY S.A.",
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/271129/Bosch-Romania/Working-Student-in-Embedded-Software-Development---High-Level",
+    "title": "Working Student in Embedded Software Development - High Level",
+    "company": "BOSCH REXROTH S.R.L.",
     "location": [
-      "Oras bragadiru, Romania"
+      "Romania"
     ],
     "salary": null,
-    "date": "2026-10-06T14:49:54.390Z",
+    "date": "2026-10-08T15:17:01.026Z",
     "status": "scraped",
     "tags": [
-      "electronica de putere",
-      "testare"
+      "microprocesoare",
+      "programare"
     ],
-    "matchPercentage": 90,
-    "reason": "Tehnician electronica cu mai putin de 3 ani experienta se potriveste direct domeniului si nivelului."
+    "matchPercentage": 72,
+    "reason": "Poziție de working student în software embedded, nivelul fiind ideal, iar sarcinile folosesc competențele de programare și microprocesoare."
   },
   {
-    "url": "https://www.ejobs.ro/user/locuri-de-munca/electrician/1987847",
-    "title": "ELECTRICIAN",
-    "company": "TIAB SA",
+    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-mentenanta-electrica-automatizari",
+    "title": "Inginer Mentenanta Electrica (Automatizari)",
+    "company": "COFICAB EASTERN EUROPE SRL",
     "location": [
-      "Slatina,Craiova, Romania"
+      "Arad, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:27:49.150Z",
+    "date": "2026-10-08T15:18:05.350Z",
     "status": "scraped",
     "tags": [
-      "proiectare instalatii electrice",
+      "automatizare",
       "mentenanta electrica"
     ],
-    "matchPercentage": 85,
-    "reason": "Instalații electrice JT/MJ/IT cu verificări și punere în funcțiune, fără experiență obligatorie."
+    "matchPercentage": 70,
+    "reason": "Mentenanță electrică și automatizari se potrivește cu competențele, dar se solicită experiență, nivel posibil mid."
   },
   {
-    "url": "https://www.bestjobs.eu/loc-de-munca/incepe-ti-cariera-in-industria-electronica-1",
-    "title": "Începe-ți cariera în industria electronică!",
-    "company": "FLASHNET S.A.",
+    "url": "https://multijobs.ro/job/electrician-montator-panouri-fotovoltaice/1821",
+    "title": "Electrician / Montator Panouri Fotovoltaice",
+    "company": "MULTIDATA MANAGEMENT S.R.L.",
     "location": [
-      "Brașov, Romania"
+      "Craiova, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:19:16.686Z",
+    "date": "2026-10-08T15:24:21.128Z",
     "status": "scraped",
     "tags": [
-      "electronica de putere",
-      "testare"
+      "energie regenerabila",
+      "instalatii electrice"
     ],
-    "matchPercentage": 85,
-    "reason": "Industria electronica este direct relevanta, oferind oportunitate de inceput de cariera in domeniul tau."
+    "matchPercentage": 70,
+    "reason": "Electrician/montator panouri fotovoltaice - domeniul energetic regenerabil se potrivește, nivel tehnic de execuție."
   },
   {
-    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-in-electronica-1",
-    "title": "Inginer in electronica",
-    "company": "ARKA UNIVERSAL IMPEX SRL",
+    "url": "https://multijobs.ro/job/electrician-in-constructii-si-instalare-sisteme-fotovoltaice/3723",
+    "title": "Electrician in constructii si instalare sisteme fotovoltaice",
+    "company": "PROSERV ELECTRIC SRL",
     "location": [
-      "Brașov, Romania"
+      "Bistrita, Romania"
     ],
     "salary": null,
-    "date": "2026-10-06T15:04:36.923Z",
+    "date": "2026-10-08T15:23:57.203Z",
     "status": "scraped",
     "tags": [
-      "electronica de putere",
-      "proiectare"
+      "instalatii electrice",
+      "energie regenerabila"
     ],
-    "matchPercentage": 85,
-    "reason": "Pozitia de inginer in electronica corespunde domeniului de specialitate, fara cerinta de experienta specificata."
+    "matchPercentage": 70,
+    "reason": "Electrician construcții instalare fotovoltaice - domeniul se potrivește cu competențele electrice și energetice."
   },
   {
-    "url": "https://jobs.rinf.tech/232674",
-    "title": "C/C++ Embedded Developer",
-    "company": "RINF OUTSOURCING SOLUTIONS SRL",
+    "url": "https://jobs.bosch.com/en/job/REF289650F-embedded-ai-software-engineer-mid-level",
+    "title": "Embedded AI Software Engineer Mid-Level",
+    "company": "BOSCH REXROTH S.R.L.",
     "location": [
-      "Bucuresti, Romania"
+      "Cluj-Napoca, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:14:10.519Z",
+    "date": "2026-10-08T15:22:26.758Z",
     "status": "scraped",
     "tags": [
-      "C/C++",
-      "proiectarea sistemelor cu microprocesoare"
+      "microprocesoare",
+      "programare"
     ],
-    "matchPercentage": 85,
-    "reason": "Potrivire directa cu programarea embedded si proiectarea sistemelor cu microprocesoare, nivel potrivit pentru entry-level/junior."
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-software-industrial-plc-scada-4",
-    "title": "Inginer Software industrial (PLC &amp; SCADA)",
-    "company": "VERDOM AUTOMATION S.R.L.",
-    "location": [
-      "București, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-06T15:09:04.898Z",
-    "status": "scraped",
-    "tags": [
-      "teoria sistemelor si reglaj automat",
-      "proiectarea actionarilor electrice"
-    ],
-    "matchPercentage": 85,
-    "reason": "Inginer PLC & SCADA intră direct în automatizare, reglaj automat și conversie de putere, la nivel de intrare/junior."
+    "matchPercentage": 68,
+    "reason": "Nivel mid potrivit, iar dezvoltarea software embedded folosește direct competențele de programare C/C++/Python și proiectare cu microprocesoare."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/automation-scada-engineer-flexibility-ancillary-services",
@@ -197,316 +469,44 @@
     "date": "2026-10-06T14:45:58.915Z",
     "status": "scraped",
     "tags": [
-      "teoria sistemelor si reglaj automat",
-      "utilizarea eficienta a energiei electrice"
+      "reglaj automat",
+      "acționări electrice"
     ],
-    "matchPercentage": 85,
-    "reason": "Automation & SCADA Engineer pentru servicii energetice se potrivește direct cu automatizări și sisteme electrice, nivel entry/junior."
+    "matchPercentage": 68,
+    "reason": "Inginer automatizări și SCADA în domeniul energetic se potrivește cu competențele de reglaj automat și acționări electrice, dar descrierea este prea sumară pentru o potrivire mai bună."
   },
   {
-    "url": "https://multijobs.ro/job/tehnician-mentenanta-electrica/6936",
-    "title": "Tehnician Mentenanță Electrică",
-    "company": "MULTIDATA MANAGEMENT S.R.L.",
-    "location": [
-      "Aricestii Rahtivani, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:22:25.646Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanță electrică",
-      "proiectare instalatii electrice"
-    ],
-    "matchPercentage": 85,
-    "reason": "Tehnician mentenanță electrică se potrivește direct cu competențele de mentenanță și instalații electrice, la nivel entry-level."
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3403605",
-    "title": "ELECTRICIAN DE ÎNTRETINERE SI REPARATII",
-    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
-    "location": [
-      "Municipiul braila, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:21:32.783Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanță electrică",
-      "proiectare instalatii electrice"
-    ],
-    "matchPercentage": 85,
-    "reason": "Electrician de întreținere la distribuția energiei electrice folosește direct competențele de rețele și mentenanță electrică, nivel puțin peste 3 ani experiență."
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3394239",
-    "title": "ELECTRICIAN DE ÎNTRETINERE SI REPARATII",
-    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
-    "location": [
-      "Municipiul satu mare, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:20:14.576Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanță electrică",
-      "proiectare instalatii electrice"
-    ],
-    "matchPercentage": 85,
-    "reason": "Electrician de întreținere în distribuție energie electrică se potrivește direct domeniului și nivelului de entry-level."
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3394231",
-    "title": "ELECTRICIAN DE ÎNTRETINERE SI REPARATII",
-    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
-    "location": [
-      "Municipiul satu mare, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:20:14.576Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanță electrică",
-      "proiectare instalatii electrice"
-    ],
-    "matchPercentage": 85,
-    "reason": "Electrician de întreținere în distribuție energie electrică se potrivește direct domeniului și nivelului de entry-level."
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3396700",
-    "title": "ELECTRICIAN DE ÎNTRETINERE SI REPARATII",
-    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
-    "location": [
-      "Municipiul bistrita, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:20:14.576Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanță electrică",
-      "proiectare instalatii electrice"
-    ],
-    "matchPercentage": 85,
-    "reason": "Electrician de întreținere în distribuție energie electrică se potrivește direct domeniului și nivelului de entry-level."
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3403650",
-    "title": "ELECTRICIAN EXPLOATARE RETELE ELECTRICE",
-    "company": "STRABAD DESIGN SRL",
-    "location": [
-      "Iazurile, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:25:44.787Z",
-    "status": "scraped",
-    "tags": [
-      "instalatii electrice",
-      "securitate electrica"
-    ],
-    "matchPercentage": 82,
-    "reason": "Exploatare de rețele electrice folosește direct competențele de instalații, măsurări și securitate electrică, la nivel entry."
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/electrician-centrale-si-statii-electrice-5",
-    "title": "Electrician Centrale și Stații Electrice",
-    "company": "BEPCO SRL",
-    "location": [
-      "Brașov, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:28:00.225Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanta electrica",
-      "echipamente actionari electrice"
-    ],
-    "matchPercentage": 80,
-    "reason": "Rol de electrician în centrale și stații electrice, direct în domeniul energiei electrice, la nivel de intrare."
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/industrial-panel-building-electrician",
-    "title": "Industrial Panel Building Electrician",
-    "company": "TECHNICAL PROJECTS CONSULTING S.R.L.",
-    "location": [
-      "Breda, Nederland, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:27:52.971Z",
-    "status": "scraped",
-    "tags": [
-      "echipamente actionari electrice",
-      "proiectare instalatii electrice"
-    ],
-    "matchPercentage": 80,
-    "reason": "Construcție de panouri industriale, activitate electrică directă relevantă pentru echipamente și acționări."
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-ofertare-proiectare-tablouri-electrice-jt-3",
-    "title": "Inginer Ofertare Proiectare Tablouri Electrice JT",
-    "company": "TOTAL ELECTRIC CO SRL",
+    "url": "https://www.anuntul.ro/anunt-angajare-electricieni-instalatori-VlkaPX",
+    "title": "Electricieni - instalatori sisteme fotovoltaice cu experienta",
+    "company": "ANUNTUL TOTAL SRL",
     "location": [
       "Bucuresti, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:25:36.897Z",
+    "date": "2026-10-08T15:24:49.638Z",
     "status": "scraped",
     "tags": [
-      "instalatii electrice",
-      "dimensionare echipamente"
+      "energie regenerabila",
+      "instalatii electrice"
     ],
-    "matchPercentage": 80,
-    "reason": "Proiectarea tablourilor electrice intră direct în dimensionarea echipamentelor și proiectarea instalațiilor electrice, la nivel junior."
+    "matchPercentage": 68,
+    "reason": "Electrician montator sisteme fotovoltaice - domeniul se potrivește, dar este poziție de execuție/instalare, nivel tehnic sub inginer."
   },
   {
-    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/271285/Job-Consult/Electrician-Tablouri-Electrice-–-București",
-    "title": "Electrician Tablouri Electrice – București",
-    "company": "JOB CONSULT SERV SRL",
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/272372/ABC-Human-Capital/Electrician-–-Instalații-Electrice-și-Sisteme-Fotovoltaice",
+    "title": "Electrician – Instalații Electrice și Sisteme Fotovoltaice",
+    "company": "ABC HUMAN CAPITAL SRL",
     "location": [
       "Bucuresti, Romania"
     ],
     "salary": null,
-    "date": "2026-10-07T15:24:06.321Z",
+    "date": "2026-10-08T15:27:18.589Z",
     "status": "scraped",
     "tags": [
       "instalatii electrice",
-      "securitate electrica"
+      "energie regenerabila"
     ],
-    "matchPercentage": 80,
-    "reason": "Electrician pe tablouri electrice aplică direct competențele de instalații, echipamente și securitate electrică, nivel entry."
-  },
-  {
-    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/272218/Hipo-Job-Finder/Tehnician-analiza-calitatii-(4-schimburi---Electronica)-F/M---Marquardt",
-    "title": "Tehnician analiza calitatii (4 schimburi - Electronica) F/M - Marquardt",
-    "company": "HIPO COMPANY GRUP SRL",
-    "location": [
-      "Sibiu, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:19:06.410Z",
-    "status": "scraped",
-    "tags": [
-      "masurari electrice",
-      "testare"
-    ],
-    "matchPercentage": 80,
-    "reason": "Analiza calitatii in electronica utilizeaza testarea si masuratorile electrice, fiind potrivit pentru nivelul entry."
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3396681",
-    "title": "ELECTRICIAN MONTARE SI REPARATII LINII ELECTRICE AERIENE",
-    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
-    "location": [
-      "Targu mures, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:20:14.576Z",
-    "status": "scraped",
-    "tags": [
-      "proiectare instalatii electrice",
-      "mentenanță electrică"
-    ],
-    "matchPercentage": 80,
-    "reason": "Montare și reparații linii electrice aeriene în distribuție folosește direct competențele electrotehnice, la nivel entry-level."
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3397042",
-    "title": "ELECTRICIAN EXPLOATARE RETELE ELECTRICE",
-    "company": "DISTRIBUȚIE ENERGIE ELECTRICĂ ROMANIA S.A.",
-    "location": [
-      "Oradea, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:20:14.576Z",
-    "status": "scraped",
-    "tags": [
-      "proiectare instalatii electrice",
-      "mentenanță electrică"
-    ],
-    "matchPercentage": 80,
-    "reason": "Exploatare rețele electrice la distribuție folosește direct competențele electrotehnice, nivel entry-level."
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3394222",
-    "title": "ELECTRICIAN DE ÎNTRETINERE SI REPARATII",
-    "company": "PORTA KMI ROMANIA SRL",
-    "location": [
-      "Arad, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:27:57.217Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanta electrica",
-      "masurari electrice"
-    ],
-    "matchPercentage": 78,
-    "reason": "Întreținere și reparații electrice cu maxim 3 ani experiență cerută, potrivit pentru nivel junior."
-  },
-  {
-    "url": "https://www.ejobs.ro/user/locuri-de-munca/electrician-comisionare-si-mentenanta-fotovoltaice-si-stocare-bess/1990534",
-    "title": "Electrician Comisionare si Mentenanta Fotovoltaice si Stocare (BESS)",
-    "company": "DOTMA DEVELOPMENT S.R.L.",
-    "location": [
-      "Bucuresti, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:27:01.401Z",
-    "status": "scraped",
-    "tags": [
-      "integrarea surselor regenerabile",
-      "masurari electrice si electronice"
-    ],
-    "matchPercentage": 78,
-    "reason": "Comisionare și mentenanță fotovoltaice/BSS folosește direct măsurări electrice, protecții și surse regenerabile, dar cerința de experiență și calificare o face sub 80."
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/electrician-sisteme-fotovoltaice-25",
-    "title": "Electrician Sisteme Fotovoltaice",
-    "company": "PAVILION INTERMED S.R.L.",
-    "location": [
-      "Ploiesti, Romania,Balotesti, Romania,Snagov, Romania,Moara Vlasiei, Romania,Bucuresti, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:25:16.727Z",
-    "status": "scraped",
-    "tags": [
-      "proiectare de instalatii electrice",
-      "integrarea surselor regenerabile"
-    ],
-    "matchPercentage": 76,
-    "reason": "Lucrari electrice la instalatii fotovoltaice, potrivire directa cu instalatiile electrice si sursele regenerabile."
-  },
-  {
-    "url": "https://multijobs.ro/job/operator-productie-electronica/2773",
-    "title": "Operator Producție Electronică",
-    "company": "MULTIDATA MANAGEMENT S.R.L.",
-    "location": [
-      "Timișoara, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:13:32.709Z",
-    "status": "scraped",
-    "tags": [
-      "electronica de putere",
-      "testare"
-    ],
-    "matchPercentage": 75,
-    "reason": "Productie electronica se potriveste partial cu electronica de putere si testare, nivelul fiind acceptabil."
-  },
-  {
-    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/271597/SCHAEFFLER/Embedded-Software-Eng.",
-    "title": "Embedded Software Eng.",
-    "company": "SCHAEFFLER ROMANIA SRL",
-    "location": [
-      "Brașov, Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-07T15:15:47.280Z",
-    "status": "scraped",
-    "tags": [
-      "C/C++",
-      "proiectarea sistemelor cu microprocesoare"
-    ],
-    "matchPercentage": 75,
-    "reason": "Domeniu partial relevant (embedded automotive), dar nu se concentreaza direct pe competentele de specialitate din ingineria electrica."
+    "matchPercentage": 66,
+    "reason": "Instalatii electrice si sisteme fotovoltaice, domeniu direct de specialitate."
   }
 ]
