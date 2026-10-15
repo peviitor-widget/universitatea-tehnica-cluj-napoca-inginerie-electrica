@@ -10,6 +10,13 @@ on:
         required: false
         default: false
         type: boolean
+  # Apelat de workflow-ul de schimbare a curriculei
+  workflow_call:
+    inputs:
+      reface_profil:
+        required: false
+        default: false
+        type: boolean
   schedule:
     # in fiecare zi la 04:00 UTC
     - cron: '0 4 * * *'
@@ -25,6 +32,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # ref (nu SHA-ul de la declansare) ca sa prindem commitul facut de workflow-ul apelant
+          ref: ${{ github.ref }}
 
       - name: Set up Node
         uses: actions/setup-node@v4
