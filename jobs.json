@@ -1,1 +1,254 @@
-[]
+[
+  {
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/264379/PPC-ROMANIA/Inginer-energetician---Dispecer-Retele-Distributie",
+    "title": "Inginer energetician - Dispecer Retele Distributie",
+    "company": "PPC PRODUCTIE ROMANIA S.R.L.",
+    "location": [
+      "Bucuresti",
+      "Timișoara",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:10.560Z",
+    "status": "scraped",
+    "tags": [
+      "utilizarea eficienta a energiei electrice",
+      "analiza si evaluare de risc"
+    ],
+    "matchPercentage": 88,
+    "reason": "Dispecer retele de distributie - domeniu direct de productie/transport/distributie energie electrica."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/inginer-electrician-instalatii-electrice",
+    "title": "Inginer electrician / instalații electrice",
+    "company": "ELECTROSTRAT S.R.L.",
+    "location": [
+      "Bucuresti",
+      "Romania",
+      "Cluj-Napoca",
+      "Romania",
+      "Timișoara",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:29.123Z",
+    "status": "scraped",
+    "tags": [
+      "instalații electrice",
+      "proiectare instalații"
+    ],
+    "matchPercentage": 85,
+    "reason": "Inginer pentru instalații electrice - utilizează direct competențe de proiectare și dimensionare a instalațiilor electrice, nivel potrivit pentru absolvent."
+  },
+  {
+    "url": "https://multijobs.ro/job/inginer-tehnician-instalatii-electrice/3977",
+    "title": "Inginer/Tehnician Instalatii Electrice",
+    "company": "ADRISIMO 27 SRL",
+    "location": [
+      "Medgidia",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:18.822Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare instalatii electrice",
+      "dimensionarea echipamentelor electrice"
+    ],
+    "matchPercentage": 82,
+    "reason": "Inginer/tehnician instalatii electrice - sarcinile folosesc direct competentele de proiectare si dimensionare echipamente electrice."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/electrician-montator-de-instalatii-electrice-1",
+    "title": "Electrician montator de instalatii electrice",
+    "company": "TRIGO ROMANIA S.A.",
+    "location": [
+      "Berceni",
+      "Bucuresti",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:18.822Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare instalatii electrice",
+      "aplicarea normelor de securitate electrica"
+    ],
+    "matchPercentage": 80,
+    "reason": "Montare instalatii electrice - domeniu de baza al specializarii, nivel de intrare potrivit."
+  },
+  {
+    "url": "https://multijobs.ro/job/tehnician-mentenanta-electromecanica-automatica-echipamente-industriale/6112",
+    "title": "TEHNICIAN MENTENANTA ELECTROMECANICA – AUTOMATICA ECHIPAMENTE INDUSTRIALE",
+    "company": "MULTIDATA MANAGEMENT S.R.L.",
+    "location": [
+      "Lugoj",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:18.822Z",
+    "status": "scraped",
+    "tags": [
+      "acționări electrice",
+      "automatizare"
+    ],
+    "matchPercentage": 75,
+    "reason": "Mentenanță electromecanică și automatizarea echipamentelor industriale folosește direct competențe de acționări electrice și automatizare, la nivel de tehnician entry."
+  },
+  {
+    "url": "https://mediere.anofm.ro/app/module/mediere/job/3409345",
+    "title": "ELECTRICIAN VERIFICARI SI MASURATORI ELECTRICE ÎN CENTRALE SI RETELE ELECTRICE",
+    "company": "ELECTROMONTAJ SA BUCURESTI SUCURSALA BUCURESTI",
+    "location": [
+      "Municipiul bacau",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:06.183Z",
+    "status": "scraped",
+    "tags": [
+      "masurari electrice",
+      "rețele electrice"
+    ],
+    "matchPercentage": 68,
+    "reason": "Verificări și măsurători electrice în centrale și rețele este direct în domeniu și la nivel de intrare, deși cerința de studii profesionale este sub nivelul de licență."
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/electrician-jt-mt-11",
+    "title": "Electrician JT / MT",
+    "company": "EDVARI TECHNOLOGIES S.R.L.",
+    "location": [
+      "Gaesti",
+      "Romania",
+      "Targoviste",
+      "Romania",
+      "137180 Crevedia",
+      "Romania",
+      "Bolintin-Deal",
+      "Romania",
+      "070000 Buftea",
+      "Romania",
+      "Rosiori de Vede 145100",
+      "Romania",
+      "077015 Balotesti",
+      "Romania",
+      "Mihailesti",
+      "Romania",
+      "București Romania",
+      "Jilava",
+      "Romania",
+      "077010 Afumati",
+      "Romania",
+      "Branesti",
+      "Romania",
+      "Frumusani",
+      "Romania",
+      "Urziceni",
+      "Romania",
+      "087125 Hotarele",
+      "Romania",
+      "Calarasi",
+      "Romania",
+      "Chisinau",
+      "Moldova",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:40.458Z",
+    "status": "scraped",
+    "tags": [
+      "energie electrică",
+      "instalații electrice"
+    ],
+    "matchPercentage": 65,
+    "reason": "Lucrări directe pe rețele JT/MT, domeniul energetic este relevant, dar este o poziție de electrician (nivel tehnic, nu de inginer)."
+  },
+  {
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000144767549-embedded-ai-software-engineer-mid-level",
+    "title": "Embedded AI Software Engineer Mid-Level",
+    "company": "ROBERT BOSCH SRL",
+    "location": [
+      "Cluj-Napoca"
+    ],
+    "salary": null,
+    "date": "2026-10-16T11:06:47.945Z",
+    "status": "scraped",
+    "tags": [
+      "microprocesoare",
+      "sisteme digitale"
+    ],
+    "matchPercentage": 65,
+    "reason": "Domeniu parțial relevant pentru sisteme embeded, dar nivel Mid-Level poate depăși pragul de ~3 ani."
+  },
+  {
+    "url": "https://www.anuntul.ro/anunt-angajare-electrician-joasa-tensiune-Z0Vo0N",
+    "title": "Electrician joasa tensiune",
+    "company": "ANUNTUL TOTAL SRL",
+    "location": [
+      "Bucuresti",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:38.321Z",
+    "status": "scraped",
+    "tags": [
+      "instalații electrice",
+      "energie electrică"
+    ],
+    "matchPercentage": 62,
+    "reason": "Instalații electrice de joasă tensiune - domeniu relevant, dar nivel de electrician, nu de inginer."
+  },
+  {
+    "url": "https://mediere.anofm.ro/app/module/mediere/job/3409346",
+    "title": "ELECTRICIAN MONTARE SI REPARATII LINII ELECTRICE AERIENE",
+    "company": "ELECTROMONTAJ SA BUCURESTI SUCURSALA BUCURESTI",
+    "location": [
+      "Municipiul bacau",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:06.183Z",
+    "status": "scraped",
+    "tags": [
+      "transport/distribuție",
+      "securitate electrică"
+    ],
+    "matchPercentage": 62,
+    "reason": "Montarea liniilor electrice aeriene intră în domeniul transportului și distribuției energiei electrice, la nivel de intrare, dar preponderent muncă de teren."
+  },
+  {
+    "url": "https://www.anuntul.ro/anunt-angajare-electrician-fabrica-rm3GZb",
+    "title": "Electrician fabrica",
+    "company": "ANUNTUL TOTAL SRL",
+    "location": [
+      "Bucuresti",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:38.320Z",
+    "status": "scraped",
+    "tags": [
+      "echipamente electrice",
+      "instalații electrice"
+    ],
+    "matchPercentage": 60,
+    "reason": "Mentenanță electrică în fabrică - domeniu relevant, dar poziție de electrician, nu de inginer."
+  },
+  {
+    "url": "https://multijobs.ro/job/inginer-instalatii-ofertare-timis/6716",
+    "title": "Inginer Instalații - Ofertare – Timiș",
+    "company": "MULTIDATA MANAGEMENT S.R.L.",
+    "location": [
+      "Timișoara",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-16T13:03:15.074Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare instalatii electrice"
+    ],
+    "matchPercentage": 60,
+    "reason": "Instalatii si ofertare - se potriveste partial domeniului electric, dar orientarea e comerciala."
+  }
+]
