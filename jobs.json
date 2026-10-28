@@ -1,77 +1,5 @@
 [
   {
-    "url": "https://electrogrup.applytojob.com/apply/jobs/details/FOs0fT7Gtj",
-    "title": "Inginer Proiectare Instalatii Electrice Primare",
-    "company": "ELECTROGRUP SA",
-    "location": [
-      "Cluj-Napoca",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:30:15Z",
-    "status": "scraped",
-    "tags": [
-      "statia electrica",
-      "echipamente primare"
-    ],
-    "matchPercentage": 95,
-    "reason": "Proiectare directa a instalatiilor electrice primare in statii electrice."
-  },
-  {
-    "url": "https://electrogrup.applytojob.com/apply/jobs/details/0lIDQtu2zZ",
-    "title": "Inginer Proiectare Instalatii Electrice Primare",
-    "company": "ELECTROGRUP SA",
-    "location": [
-      "Bucuresti",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:30:15Z",
-    "status": "scraped",
-    "tags": [
-      "statia electrica",
-      "echipamente primare"
-    ],
-    "matchPercentage": 95,
-    "reason": "Proiectare directa a instalatiilor electrice primare in statii electrice."
-  },
-  {
-    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156289169-working-student-in-embedded-software-development-high-level",
-    "title": "Working Student in Embedded Software Development - High Level",
-    "company": "ROBERT BOSCH SRL",
-    "location": [
-      "Cluj-Napoca",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:37:42.622Z",
-    "status": "scraped",
-    "tags": [
-      "microprocesoare",
-      "programare"
-    ],
-    "matchPercentage": 95,
-    "reason": "Working student - potrivit pentru student, domeniu direct relevant"
-  },
-  {
-    "url": "https://www.undelucram.ro/ro/locuri-de-munca/inginer-energetician-mentenanta-specializata/99886",
-    "title": "Inginer Energetician Mentenanță Specializată",
-    "company": "PPC PRODUCTIE ROMANIA S.R.L.",
-    "location": [
-      "Constanta",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-17T12:22:02.148Z",
-    "status": "scraped",
-    "tags": [
-      "protecție",
-      "automatizare"
-    ],
-    "matchPercentage": 92,
-    "reason": "Mentenanță la rețele înaltă tensiune, protecție și automatizări."
-  },
-  {
     "url": "https://electrogrup.applytojob.com/apply/jobs/details/B5YbGEBGbY",
     "title": "Inginer Proiectant Instalatii Secundare",
     "company": "ELECTROGRUP SA",
@@ -80,14 +8,14 @@
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:30:15Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
-      "automatizare",
-      "protectie"
+      "protectie",
+      "automatizare"
     ],
-    "matchPercentage": 90,
-    "reason": "Proiectare instalatii secundare, protectii, automatizare"
+    "matchPercentage": 95,
+    "reason": "Proiectare instalații secundare, protecție, comandă și automatizare, foarte relevant."
   },
   {
     "url": "https://electrogrup.applytojob.com/apply/jobs/details/cD3jA97IQS",
@@ -98,88 +26,103 @@
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:30:15Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
-      "automatizare",
-      "protectie"
+      "protectie",
+      "automatizare"
     ],
-    "matchPercentage": 90,
-    "reason": "Proiectare instalatii secundare, protectii, automatizare"
+    "matchPercentage": 95,
+    "reason": "Proiectare instalații secundare, protecție, comandă și automatizare, foarte relevant."
   },
   {
-    "url": "https://electrogrup.applytojob.com/apply/jobs/details/b1I5LokK3w",
-    "title": "Inginer Implementare Electrice",
+    "url": "https://electrogrup.applytojob.com/apply/jobs/details/FOs0fT7Gtj",
+    "title": "Inginer Proiectare Instalatii Electrice Primare",
     "company": "ELECTROGRUP SA",
     "location": [
-      "Piatra-Neamt",
+      "Cluj-Napoca",
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:30:15Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
-      "masuratori electrice",
-      "medie inalta tensiune"
+      "statii electrice",
+      "echipamente electrice"
     ],
-    "matchPercentage": 90,
-    "reason": "Lucrari electrice de medie si inalta tensiune, masuratori si verificari."
+    "matchPercentage": 95,
+    "reason": "Proiectare instalatii electrice primare in statii, dimensionare echipamente."
   },
   {
-    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/272828/Electromontaj/Electricieni-Statii-(Circuite-Primare-si-Secundare)",
-    "title": "Electricieni Statii (Circuite Primare si Secundare)",
-    "company": "GREEN ELECTROMONTAJ SRL",
+    "url": "https://electrogrup.applytojob.com/apply/jobs/details/0lIDQtu2zZ",
+    "title": "Inginer Proiectare Instalatii Electrice Primare",
+    "company": "ELECTROGRUP SA",
     "location": [
-      "Bacau",
-      "Iași",
-      "Vaslui",
+      "Bucuresti",
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-17T12:08:32.564Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
-      "statii",
-      "circuite"
+      "statii electrice",
+      "echipamente electrice"
     ],
-    "matchPercentage": 90,
-    "reason": "Statii electrice circuite primare/secundare, foarte relevant"
+    "matchPercentage": 95,
+    "reason": "Proiectare instalatii electrice primare in statii, dimensionare echipamente."
   },
   {
-    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156518857-embedded-software-engineer-adas-functions-realization-for-driving",
-    "title": "Embedded Software Engineer – ADAS Functions Realization for Driving",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155927730-electronics-hardware-design-engineer",
+    "title": "Electronics Hardware Design Engineer",
+    "company": "ROBERT BOSCH SRL",
+    "location": [
+      "România"
+    ],
+    "salary": null,
+    "date": "2026-10-27T11:54:22.051Z",
+    "status": "scraped",
+    "tags": [
+      "electronica",
+      "hardware"
+    ],
+    "matchPercentage": 95,
+    "reason": "Design hardware electronic pentru automotive se potrivește direct cu electronica de putere și proiectarea electronică."
+  },
+  {
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156289169-working-student-in-embedded-software-development-high-level",
+    "title": "Working Student in Embedded Software Development - High Level",
     "company": "ROBERT BOSCH SRL",
     "location": [
       "Cluj-Napoca",
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:37:42.622Z",
+    "date": "2026-10-27T11:54:22.051Z",
     "status": "scraped",
     "tags": [
-      "microprocesoare",
+      "embedded",
       "programare"
     ],
-    "matchPercentage": 90,
-    "reason": "Domeniu direct relevant (sisteme embedded/microprocesoare)"
+    "matchPercentage": 95,
+    "reason": "Pozitie pentru student in dezvoltare embedded, foarte relevanta pentru competentele tale."
   },
   {
-    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/271893/Trenkwalder-Romania/ELECTRICIAN-AUTOMATIST-–-MENTENANȚĂ-INDUSTRIALĂ",
-    "title": "ELECTRICIAN AUTOMATIST – MENTENANȚĂ INDUSTRIALĂ",
-    "company": "TRENKWALDER SRL",
+    "url": "https://careers.bmwtechworks.ro/jobs/8528985-industrial-automation-embedded-systems-engineer",
+    "title": "Industrial Automation &amp; Embedded Systems Engineer",
+    "company": "BMW TECHWORKS ROMANIA S.R.L.",
     "location": [
-      "Bucuresti",
+      "Cluj-Napoca",
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-17T12:22:39.119Z",
+    "date": "2026-10-21T11:10:18.139Z",
     "status": "scraped",
     "tags": [
       "automatizare",
-      "mentenanta electrica"
+      "embedded"
     ],
-    "matchPercentage": 90,
-    "reason": "Electrician automatist pentru mentenanta industriala"
+    "matchPercentage": 95,
+    "reason": "Automatizare industriala si sisteme embedded, se potrivesc direct cu automatizarea si actionarile electrice."
   },
   {
     "url": "https://electrogrup.applytojob.com/apply/jobs/details/PVQhsUXFlR",
@@ -190,14 +133,14 @@
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:30:15Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
       "automatizare",
       "SCADA"
     ],
-    "matchPercentage": 90,
-    "reason": "Automatizare substation și SCADA direct relevante domeniului."
+    "matchPercentage": 95,
+    "reason": "SCADA si automatizare in retele electrice"
   },
   {
     "url": "https://electrogrup.applytojob.com/apply/jobs/details/hovUA2LIdx",
@@ -208,14 +151,14 @@
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:30:15Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
       "automatizare",
       "SCADA"
     ],
-    "matchPercentage": 90,
-    "reason": "Automatizare substation și SCADA direct relevante domeniului."
+    "matchPercentage": 95,
+    "reason": "SCADA si automatizare in retele electrice"
   },
   {
     "url": "https://www.targuldecariere.ro/companii/e-infra-/18847/undefined",
@@ -232,117 +175,26 @@
       "automatizare",
       "SCADA"
     ],
-    "matchPercentage": 90,
-    "reason": "Automatizare substation și SCADA direct relevante domeniului."
+    "matchPercentage": 95,
+    "reason": "SCADA si automatizare in retele electrice"
   },
   {
-    "url": "https://swicon.com/job/tehnician-sisteme-fotovoltaice/",
-    "title": "Tehnician Sisteme Fotovoltaice",
-    "company": "SWICON IT SERVICES SRL",
+    "url": "https://www.undelucram.ro/ro/locuri-de-munca/inginer-energetician-mentenanta-specializata/99886",
+    "title": "Inginer Energetician Mentenanță Specializată",
+    "company": "PPC PRODUCTIE ROMANIA S.R.L.",
     "location": [
-      "Bucuresti",
+      "Constanta",
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-17T12:15:54.243Z",
+    "date": "2026-10-17T12:22:02.148Z",
     "status": "scraped",
     "tags": [
-      "fotovoltaic",
-      "instalatii"
+      "automatizare",
+      "protectie"
     ],
-    "matchPercentage": 90,
-    "reason": "Tehnician sisteme fotovoltaice - potrivit pentru un student/absolvent, sarcini directe în domeniul energiei regenerabile."
-  },
-  {
-    "url": "https://electrogrup.applytojob.com/apply/jobs/details/DXLHzwvIPf",
-    "title": "Inginer Implementare Electrice",
-    "company": "ELECTROGRUP SA",
-    "location": [
-      "Sibiu",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:30:15Z",
-    "status": "scraped",
-    "tags": [
-      "proiectare",
-      "executie"
-    ],
-    "matchPercentage": 88,
-    "reason": "Implementare lucrari electrice MT/AT, proiectare-executie"
-  },
-  {
-    "url": "https://ppc.jobful.io/company/ppc-energy/jobs/field-operations-area-supervisor-2",
-    "title": "Field operations Area Supervisor",
-    "company": "PPC ENERGIE S.A.",
-    "location": [
-      "Barlad",
-      "Vaslui",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-17T12:22:29.219Z",
-    "status": "scraped",
-    "tags": [
-      "statia electrica",
-      "medie inalta tensiune"
-    ],
-    "matchPercentage": 88,
-    "reason": "Supraveghere si manevre in statii de evacuare eoliene."
-  },
-  {
-    "url": "https://electrogrup.applytojob.com/apply/jobs/details/bL6rHPpidb",
-    "title": "Inginer Ofertare Energetic",
-    "company": "ELECTROGRUP SA",
-    "location": [
-      "Bucuresti",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:30:15Z",
-    "status": "scraped",
-    "tags": [
-      "proiectare",
-      "infrastructura"
-    ],
-    "matchPercentage": 85,
-    "reason": "Ofertare pentru proiecte de infrastructura energetica"
-  },
-  {
-    "url": "https://electrogrup.applytojob.com/apply/jobs/details/IWatG3gVPA",
-    "title": "Inginer Ofertare Energetic",
-    "company": "ELECTROGRUP SA",
-    "location": [
-      "Cluj-Napoca",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:30:15Z",
-    "status": "scraped",
-    "tags": [
-      "proiectare",
-      "infrastructura"
-    ],
-    "matchPercentage": 85,
-    "reason": "Ofertare pentru proiecte de infrastructura energetica"
-  },
-  {
-    "url": "https://electrogrup.applytojob.com/apply/jobs/details/F9wmym3eLR",
-    "title": "Inginer Calitate Electrice",
-    "company": "ELECTROGRUP SA",
-    "location": [
-      "Iași",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:30:15Z",
-    "status": "scraped",
-    "tags": [
-      "masurari",
-      "testare"
-    ],
-    "matchPercentage": 85,
-    "reason": "Control calitate instalatii electrice"
+    "matchPercentage": 95,
+    "reason": "Mentenanta specializata in retele si automatizare"
   },
   {
     "url": "https://electrogrup.applytojob.com/apply/jobs/details/1loIjnWQLn",
@@ -353,32 +205,14 @@
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:30:15Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
-      "masurari",
-      "testare"
+      "masurari electrice",
+      "calitate"
     ],
-    "matchPercentage": 85,
-    "reason": "Control calitate instalatii electrice"
-  },
-  {
-    "url": "https://electrogrup.applytojob.com/apply/jobs/details/l3DNaO2G19",
-    "title": "Inginer Calitate Electrice",
-    "company": "ELECTROGRUP SA",
-    "location": [
-      "Cluj-Napoca",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:30:15Z",
-    "status": "scraped",
-    "tags": [
-      "masurari",
-      "testare"
-    ],
-    "matchPercentage": 85,
-    "reason": "Control calitate instalatii electrice"
+    "matchPercentage": 90,
+    "reason": "Controlul calității pentru instalații electrice MT/IT, foarte relevant."
   },
   {
     "url": "https://electrogrup.applytojob.com/apply/jobs/details/yxJVqBAfHk",
@@ -389,14 +223,214 @@
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:30:15Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
-      "masurari",
-      "testare"
+      "masurari electrice",
+      "calitate"
+    ],
+    "matchPercentage": 90,
+    "reason": "Controlul calității pentru instalații electrice, direct relevant pentru un inginer electric."
+  },
+  {
+    "url": "https://electrogrup.applytojob.com/apply/jobs/details/DXLHzwvIPf",
+    "title": "Inginer Implementare Electrice",
+    "company": "ELECTROGRUP SA",
+    "location": [
+      "Sibiu",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-27T11:48:31Z",
+    "status": "scraped",
+    "tags": [
+      "masurari electrice",
+      "instalatii electrice"
+    ],
+    "matchPercentage": 90,
+    "reason": "Implementare lucrări electrice MT/LV cu măsurători și verificări, foarte relevant."
+  },
+  {
+    "url": "https://electrogrup.applytojob.com/apply/jobs/details/b1I5LokK3w",
+    "title": "Inginer Implementare Electrice",
+    "company": "ELECTROGRUP SA",
+    "location": [
+      "Piatra-Neamt",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-27T11:48:31Z",
+    "status": "scraped",
+    "tags": [
+      "masuratori electrice",
+      "instalatii electrice"
+    ],
+    "matchPercentage": 90,
+    "reason": "Proiecte electrice MT/AT, masuratori si verificari direct din domeniu."
+  },
+  {
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/272828/Electromontaj/Electricieni-Statii-(Circuite-Primare-si-Secundare)",
+    "title": "Electricieni Statii (Circuite Primare si Secundare)",
+    "company": "GREEN ELECTROMONTAJ SRL",
+    "location": [
+      "Bacau",
+      "Iași",
+      "Vaslui",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-17T12:08:32.564Z",
+    "status": "scraped",
+    "tags": [
+      "stații",
+      "distribuție"
+    ],
+    "matchPercentage": 90,
+    "reason": "Electricieni stații circuite primare și secundare, foarte relevant"
+  },
+  {
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156518857-embedded-software-engineer-adas-functions-realization-for-driving",
+    "title": "Embedded Software Engineer – ADAS Functions Realization for Driving",
+    "company": "ROBERT BOSCH SRL",
+    "location": [
+      "Cluj-Napoca",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-27T11:54:22.051Z",
+    "status": "scraped",
+    "tags": [
+      "embedded",
+      "microprocesoare"
+    ],
+    "matchPercentage": 90,
+    "reason": "Dezvoltare embedded pentru sisteme auto, se leaga direct de sisteme cu microprocesoare si electronica."
+  },
+  {
+    "url": "https://apply.workable.com/j/93AABAA821",
+    "title": "Embedded C Software Engineer | Aviation",
+    "company": "GARMIN CLUJ SRL",
+    "location": [
+      "Cluj-Napoca",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-27T11:14:27.470Z",
+    "status": "scraped",
+    "tags": [
+      "embedded",
+      "programare"
+    ],
+    "matchPercentage": 90,
+    "reason": "Embedded C pentru sisteme aviatice, potrivire puternica cu sisteme cu microprocesoare."
+  },
+  {
+    "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/271893/Trenkwalder-Romania/ELECTRICIAN-AUTOMATIST-–-MENTENANȚĂ-INDUSTRIALĂ",
+    "title": "ELECTRICIAN AUTOMATIST – MENTENANȚĂ INDUSTRIALĂ",
+    "company": "TRENKWALDER SRL",
+    "location": [
+      "Bucuresti",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-17T12:22:39.119Z",
+    "status": "scraped",
+    "tags": [
+      "automatizare",
+      "mentenanta"
+    ],
+    "matchPercentage": 90,
+    "reason": "Electrician automatist in mentenanta industriala, se potriveste direct automatizarii si mentenantei electrice."
+  },
+  {
+    "url": "https://fjobs.ro/job/inginer-proiectare-electrica/",
+    "title": "Inginer Proiectare Electrică",
+    "company": "PROFESIONAL LEASING S.R.L.",
+    "location": [
+      "Bacau",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-17T12:18:15.867Z",
+    "status": "scraped",
+    "tags": [
+      "proiectare",
+      "instalatii"
+    ],
+    "matchPercentage": 90,
+    "reason": "Proiectare instalații electrice, potrivit direct pentru profilul de inginerie electrică."
+  },
+  {
+    "url": "https://www.targuldecariere.ro/companii/retrasib/16544/inginer-proiectare-electrica-fisa-de-calcul",
+    "title": "Inginer proiectare electrica- parte activa",
+    "company": "RETRASIB S.R.L.",
+    "location": [
+      "Sibiu",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-17T12:16:43.048Z",
+    "status": "scraped",
+    "tags": [
+      "transformatoare",
+      "proiectare"
+    ],
+    "matchPercentage": 90,
+    "reason": "Proiectare parte activă transformatoare, foarte relevant pentru proiectarea transformatoarelor."
+  },
+  {
+    "url": "https://multijobs.ro/job/tehnician-electrician-om-centrale-fotovoltaice/5644",
+    "title": "Tehnician electrician O&amp;M centrale fotovoltaice",
+    "company": "MULTIDATA MANAGEMENT S.R.L.",
+    "location": [
+      "Cluj-Napoca",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-17T12:16:05.918Z",
+    "status": "scraped",
+    "tags": [
+      "mentenanta",
+      "masuratori"
+    ],
+    "matchPercentage": 90,
+    "reason": "Mentenanta si masuratori electrice pentru centrale fotovoltaice."
+  },
+  {
+    "url": "https://electrogrup.applytojob.com/apply/jobs/details/F9wmym3eLR",
+    "title": "Inginer Calitate Electrice",
+    "company": "ELECTROGRUP SA",
+    "location": [
+      "Iași",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-27T11:48:31Z",
+    "status": "scraped",
+    "tags": [
+      "masurari electrice",
+      "calitate"
     ],
     "matchPercentage": 85,
-    "reason": "Control calitate instalatii electrice"
+    "reason": "Verificări și control calitate direct aplicabile instalațiilor electrice."
+  },
+  {
+    "url": "https://electrogrup.applytojob.com/apply/jobs/details/l3DNaO2G19",
+    "title": "Inginer Calitate Electrice",
+    "company": "ELECTROGRUP SA",
+    "location": [
+      "Cluj-Napoca",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-27T11:48:31Z",
+    "status": "scraped",
+    "tags": [
+      "masurari electrice",
+      "calitate"
+    ],
+    "matchPercentage": 85,
+    "reason": "Verificări și control calitate direct aplicabile instalațiilor electrice."
   },
   {
     "url": "https://electrogrup.applytojob.com/apply/jobs/details/NRqMw8Lvh5",
@@ -407,49 +441,14 @@
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T12:30:15Z",
+    "date": "2026-10-27T11:48:31Z",
     "status": "scraped",
     "tags": [
-      "masurari",
-      "testare"
+      "masurari electrice",
+      "calitate"
     ],
     "matchPercentage": 85,
-    "reason": "Control calitate instalatii electrice"
-  },
-  {
-    "url": "https://cemacon.ro/cariere/inginer-tehnolog-2/",
-    "title": "Coordonator echipa electrica",
-    "company": "CEMACON SA",
-    "location": [
-      "Cluj-Napoca",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:05:24.456Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanta electrica",
-      "automatizari"
-    ],
-    "matchPercentage": 85,
-    "reason": "Mentenanta si diagnosticare electrica pentru utilaje industriale."
-  },
-  {
-    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155927730-electronics-hardware-design-engineer",
-    "title": "Electronics Hardware Design Engineer",
-    "company": "ROBERT BOSCH SRL",
-    "location": [
-      "România"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:37:42.622Z",
-    "status": "scraped",
-    "tags": [
-      "electronica de putere",
-      "CAD electric"
-    ],
-    "matchPercentage": 85,
-    "reason": "Proiectare și testare hardware electronic pentru automotive, folosește direct competențele de electronică și proiectare."
+    "reason": "Verificări și control calitate direct aplicabile instalațiilor electrice."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/electrician-circuite-secundare",
@@ -470,82 +469,82 @@
     "date": "2026-10-17T12:14:04.547Z",
     "status": "scraped",
     "tags": [
-      "circuite",
-      "instalatii"
+      "instalații",
+      "circuite"
     ],
     "matchPercentage": 85,
-    "reason": "Circuite primare/secundare in energie, potrivit pentru junior"
+    "reason": "Electrician circuite secundare, relevant pentru instalații electrice"
   },
   {
-    "url": "https://apply.workable.com/j/93AABAA821",
-    "title": "Embedded C Software Engineer | Aviation",
-    "company": "GARMIN CLUJ SRL",
+    "url": "https://jobs.zollner.ro/jobposting/b6b83168c8d191aadedc69f020f5f0c82e6df9ee0",
+    "title": "Inginer sisteme de testare",
+    "company": "ZES ZOLLNER ELECTRONIC SRL",
     "location": [
-      "Cluj-Napoca",
+      "Satu Mare",
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-26T11:49:15.104Z",
+    "date": "2026-10-17T12:22:35.934Z",
     "status": "scraped",
     "tags": [
-      "programare",
+      "testare",
+      "electronica"
+    ],
+    "matchPercentage": 85,
+    "reason": "Testarea sistemelor electronice si analiza placilor se leaga direct de masuratori si electronica."
+  },
+  {
+    "url": "https://jobs.rinf.tech/231989",
+    "title": "Embedded AI/ML Platform Integration Engineer",
+    "company": "RINF OUTSOURCING SOLUTIONS SRL",
+    "location": [
+      "Bucuresti",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-17T12:22:19.407Z",
+    "status": "scraped",
+    "tags": [
+      "embedded",
       "microprocesoare"
     ],
     "matchPercentage": 85,
-    "reason": "Domeniu direct relevant (Embedded C/microprocesoare)"
+    "reason": "Integrare platforma embedded/AI, relevanta pentru sisteme cu microprocesoare si electronica."
   },
   {
-    "url": "https://careers.bmwtechworks.ro/jobs/8528985-industrial-automation-embedded-systems-engineer",
-    "title": "Industrial Automation &amp; Embedded Systems Engineer",
-    "company": "BMW TECHWORKS ROMANIA S.R.L.",
+    "url": "https://www.randstad.ro/locuri-de-munca/inginer-ofertare-proiecte-fotovoltaice_voluntari_5459/",
+    "title": "inginer ofertare - proiecte fotovoltaice",
+    "company": "RANDSTAD ROMANIA SRL",
     "location": [
-      "Cluj-Napoca",
+      "Voluntari",
       "Romania"
     ],
     "salary": null,
-    "date": "2026-10-21T11:10:18.139Z",
+    "date": "2026-10-27T11:34:25.390Z",
     "status": "scraped",
     "tags": [
-      "automatizare",
-      "microprocesoare"
-    ],
-    "matchPercentage": 85,
-    "reason": "Domeniu direct relevant (automatizare și sisteme embedded)"
-  },
-  {
-    "url": "https://www.jobrapid.ro/locuri-de-munca/electrician-de-intretinere-si-reparatii-in-alba-iulia-1727606.html",
-    "title": "Electrician De Intretinere Si Reparatii",
-    "company": "RAPEL SRL",
-    "location": [
-      "Alba Iulia",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-26T12:13:50.016Z",
-    "status": "scraped",
-    "tags": [
-      "mentenanta electrica",
-      "masurari electrice"
-    ],
-    "matchPercentage": 85,
-    "reason": "Electrician intretinere si reparatii - relevanta"
-  },
-  {
-    "url": "https://www.targuldecariere.ro/companii/retrasib/16544/inginer-proiectare-electrica-fisa-de-calcul",
-    "title": "Inginer proiectare electrica- parte activa",
-    "company": "RETRASIB S.R.L.",
-    "location": [
-      "Sibiu",
-      "Romania"
-    ],
-    "salary": null,
-    "date": "2026-10-17T12:16:43.048Z",
-    "status": "scraped",
-    "tags": [
-      "transformatoare",
+      "fotovoltaice",
       "proiectare"
     ],
     "matchPercentage": 85,
-    "reason": "Proiectare de transformatoare direct din planul de invatamant."
+    "reason": "Proiectare si ofertare pentru parcuri fotovoltaice, direct in domeniul energetic."
+  },
+  {
+    "url": "https://cemacon.ro/cariere/inginer-tehnolog-2/",
+    "title": "Coordonator echipa electrica",
+    "company": "CEMACON SA",
+    "location": [
+      "Cluj-Napoca",
+      "Romania"
+    ],
+    "salary": null,
+    "date": "2026-10-27T11:26:14.546Z",
+    "status": "scraped",
+    "tags": [
+      "mentenanta electrica",
+      "diagnosticare"
+    ],
+    "matchPercentage": 80,
+    "reason": "Diagnosticare, mentenanta si coordonare electrica pe utilaje industriale."
   }
 ]
