@@ -23,7 +23,13 @@ Nu există fișiere de curriculum sau de agent de întreținut manual — profil
 
 ### Configurare, o singură dată
 
-Acțiunea de creare are nevoie de un secret de organizație numit `WIDGET_TOKEN`: un PAT fine-grained legat de organizație, cu acces la **All repositories** și permisiunile *Administration: write*, *Contents: write*, *Pages: write*, *Actions: write*. `GITHUB_TOKEN` nu poate crea repository-uri și nici activa Pages.
+Workflow-urile folosesc un **GitHub App deținut de organizație** (nu un token personal), ca widgetul să nu depindă de contul nimănui. `GITHUB_TOKEN` nu poate crea repository-uri și nici activa Pages.
+
+1. **Organizație → Settings → Developer settings → GitHub Apps → New GitHub App**: webhook dezactivat, permisiuni de repository *Administration*, *Contents*, *Pages*, *Actions*, *Workflows* — toate **Read and write**; instalabil doar pe acest cont.
+2. Generează o cheie privată și instalează aplicația pe organizație cu **All repositories**.
+3. În organizație, la *Secrets and variables → Actions*, adaugă variabila `WIDGET_APP_ID` (App ID) și secretul `WIDGET_APP_PRIVATE_KEY` (conținutul fișierului `.pem`).
+
+Fiecare rulare generează un token nou, valabil o oră, deci nu există nimic care să expire.
 
 ## Stack tehnologic
 
@@ -70,6 +76,7 @@ Fără parametri, widgetul folosește titlul și culoarea din `conf/widget.json`
 | `.github/workflows/create-widget.yml` | Rulat în template: creează repository-ul facultății și pornește configurarea în el |
 | `.github/workflows/setup.yml` | Configurarea propriu-zisă, rulată în repository-ul facultății |
 | `.github/workflows/refresh-jobs.yml` | Reîmprospătarea zilnică a joburilor |
+| `.github/workflows/change-curriculum.yml` | Schimbă linkul curriculei și reface profilul și joburile |
 | `.github/workflows/deploy.yml` | Build & deploy pe GitHub Pages (reutilizabil) |
 | `scripts/faculty_slug.mjs` | Numele facultății → numele repository-ului |
 | `scripts/generate_jobs.mjs` | Curriculă → profil de competențe → căutare → matching → `jobs.json` |

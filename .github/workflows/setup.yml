@@ -80,14 +80,25 @@ jobs:
           fi
 
       # GITHUB_TOKEN nu poate crea un site Pages (endpointul cere drepturi de
-      # administrator). Daca organizatia are secretul WIDGET_TOKEN, Pages se
+      # administrator). Daca organizatia are GitHub App-ul configurat, Pages se
       # activeaza singur; altfel trebuie activat o data din Settings -> Pages.
+      # Tokenul e generat abia aici (dupa generarea joburilor) pentru ca expira
+      # dupa o ora.
+      - name: Genereaza token de la GitHub App
+        id: app-token
+        if: vars.WIDGET_APP_ID != ''
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.WIDGET_APP_ID }}
+          private-key: ${{ secrets.WIDGET_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
       - name: Activeaza GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
-          token: ${{ secrets.WIDGET_TOKEN || github.token }}
+          token: ${{ steps.app-token.outputs.token || github.token }}
 
       - name: Explica esecul activarii Pages
         if: failure() && steps.pages.outcome == 'failure'
@@ -102,9 +113,9 @@ jobs:
             echo "1. **Settings → Pages → Source** → alege **GitHub Actions**"
             echo "2. Ruleaza din nou **1. Configureaza widgetul facultatii**"
             echo ""
-            echo "Ca sa se activeze singur pe toate repo-urile viitoare, adauga"
-            echo "un secret de organizatie numit \`WIDGET_TOKEN\` (PAT cu"
-            echo "permisiunile *Administration: write* si *Pages: write*)."
+            echo "Ca sa se activeze singur pe toate repo-urile viitoare, instaleaza"
+            echo "GitHub App-ul organizatiei si seteaza variabila \`WIDGET_APP_ID\`"
+            echo "si secretul \`WIDGET_APP_PRIVATE_KEY\` (vezi README)."
           } >> "$GITHUB_STEP_SUMMARY"
           exit 1
 
@@ -117,11 +128,11 @@ jobs:
       # Cere Administration: write, pe care GITHUB_TOKEN nu il poate avea.
       - name: Pune linkul widgetului in descrierea repository-ului
         env:
-          GH_TOKEN: ${{ secrets.WIDGET_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           PAGES_URL: ${{ steps.pages.outputs.base_url }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
-            echo "::warning::Fara WIDGET_TOKEN nu pot seta linkul pe pagina repository-ului."
+            echo "::warning::Fara GitHub App-ul organizatiei nu pot seta linkul pe pagina repository-ului."
             exit 0
           fi
           gh api -X PATCH "repos/$GITHUB_REPOSITORY" -f homepage="$PAGES_URL" --silent
@@ -140,10 +151,10 @@ jobs:
       # Universitatea si facultatea vin din conf/widget.json.
       - name: Actualizeaza registrul organizatiei
         env:
-          GH_TOKEN: ${{ secrets.WIDGET_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
-            echo "::warning::Fara WIDGET_TOKEN nu pot actualiza registrul organizatiei."
+            echo "::warning::Fara GitHub App-ul organizatiei nu pot actualiza registrul organizatiei."
             exit 0
           fi
           node scripts/register_faculty.mjs \
@@ -158,5 +169,5 @@ jobs:
       pages: write
       id-token: write
     uses: ./.github/workflows/deploy.yml
-    # fara asta, workflow-ul apelat nu vede WIDGET_TOKEN
+    # fara asta, workflow-ul apelat nu vede WIDGET_APP_PRIVATE_KEY
     secrets: inherit

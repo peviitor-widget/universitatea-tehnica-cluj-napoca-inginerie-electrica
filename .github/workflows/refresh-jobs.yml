@@ -28,6 +28,8 @@ permissions:
 
 jobs:
   refresh:
+    # Template-ul nu are curricula, deci nu are ce reimprospata
+    if: github.repository != 'peviitor-widget/jobs-widget'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -76,5 +78,5 @@ jobs:
       pages: write
       id-token: write
     uses: ./.github/workflows/deploy.yml
-    # fara asta, workflow-ul apelat nu vede WIDGET_TOKEN
+    # fara asta, workflow-ul apelat nu vede WIDGET_APP_PRIVATE_KEY
     secrets: inherit

@@ -35,8 +35,6 @@ jobs:
   creeaza:
     runs-on: ubuntu-latest
     env:
-      # PAT fine-grained, secret de organizatie. GITHUB_TOKEN nu poate crea repository-uri.
-      GH_TOKEN: ${{ secrets.WIDGET_TOKEN }}
       ORG: ${{ github.repository_owner }}
       TEMPLATE: ${{ github.repository }}
     steps:
@@ -48,12 +46,27 @@ jobs:
         with:
           node-version: 20
 
-      - name: Verifica secretul
+      - name: Verifica GitHub App-ul
+        env:
+          APP_ID: ${{ vars.WIDGET_APP_ID }}
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "::error::Lipseste secretul de organizatie WIDGET_TOKEN."
+          if [ -z "$APP_ID" ]; then
+            echo "::error::Lipsesc WIDGET_APP_ID / WIDGET_APP_PRIVATE_KEY la nivel de organizatie."
             exit 1
           fi
+
+      # Token de la GitHub App-ul organizatiei: nu depinde de contul nimanui si
+      # expira singur dupa o ora. GITHUB_TOKEN nu poate crea repository-uri.
+      - name: Genereaza token de la GitHub App
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.WIDGET_APP_ID }}
+          private-key: ${{ secrets.WIDGET_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: Foloseste tokenul pentru gh
+        run: echo "GH_TOKEN=${{ steps.app-token.outputs.token }}" >> "$GITHUB_ENV"
 
       - name: Calculeaza numele repository-ului
         id: slug

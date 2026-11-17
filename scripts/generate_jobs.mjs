@@ -113,31 +113,44 @@ function stripHtml(html) {
     .trim();
 }
 
+// Normalizam ca sa prindem si "Plan_inv", "Pl-inv", "Planuri de învățământ" etc.
+function normalize(s) {
+  let d = s;
+  try { d = decodeURIComponent(s); } catch {}
+  return d.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+const CURRICULUM_HINT = /plan(?:uri)?[\W_]*(?:de[\W_]*)?inv|pl[\W_]*inv|curricul|disciplin|programa|syllabus|fis[ae][\W_]*disciplin|licenta|master/;
+const NOT_CURRICULUM = /regulament|ghid|formular|contesta|comunicat|anunt|brosur|orar|consultat|raport|declarat|metodolog|calendar|cerere|tool[\W_]*kit|coordonator|tutor|ceac|achizit|poim|smis|proces[\W_]*verbal|hotarar/;
+
 function findPdfUrls(html, source) {
-  const found = new Set();
   const toAbsolute = (href) => {
-    try {
-      return new URL(href, source).href;
-    } catch {
-      return null;
-    }
+    try { return new URL(href, source).href; } catch { return null; }
   };
-
-  // Intai PDF-urile care par a fi planuri de invatamant
-  const priority = /href="([^"]*\b(?:licenta|master|planuri?|curricul|disciplin|programa)\b[^"]*\.pdf)"/gi;
-  for (const m of html.matchAll(priority)) {
+  // Fiecare PDF impreuna cu textul linkului
+  const links = new Map();
+  for (const m of html.matchAll(/<a\b[^>]*href=["']([^"']+\.pdf)["'][^>]*>(.*?)<\/a>/gis)) {
     const abs = toAbsolute(m[1]);
-    if (abs) found.add(abs);
+    if (!abs) continue;
+    const text = m[2].replace(/<[^>]+>/g, ' ');
+    links.set(abs, `${links.get(abs) || ''} ${text}`);
+  }
+  for (const m of html.matchAll(/href=["']([^"']+\.pdf)["']/gi)) {
+    const abs = toAbsolute(m[1]);
+    if (abs && !links.has(abs)) links.set(abs, '');
   }
 
-  if (found.size === 0) {
-    for (const m of html.matchAll(/href="([^"]*\.pdf)"/gi)) {
-      const abs = toAbsolute(m[1]);
-      if (abs) found.add(abs);
-    }
-  }
+  const candidates = [...links].map(([url, text]) => ({
+    url,
+    key: normalize(`${new URL(url).pathname} ${text}`),
+  }));
+  const usable = candidates.filter((c) => !NOT_CURRICULUM.test(c.key));
 
-  return [...found].slice(0, MAX_PDFS);
+  // Intai PDF-urile care par a fi planuri de invatamant; altfel orice PDF care
+  // nu e evident altceva (regulamente, comunicate, formulare...). Daca nu ramane
+  // niciunul, se foloseste HTML-ul paginii.
+  const priority = usable.filter((c) => CURRICULUM_HINT.test(c.key));
+  const chosen = priority.length > 0 ? priority : usable;
+  return chosen.map((c) => c.url).slice(0, MAX_PDFS);
 }
 
 async function extractPdfTexts(urls, destDir) {

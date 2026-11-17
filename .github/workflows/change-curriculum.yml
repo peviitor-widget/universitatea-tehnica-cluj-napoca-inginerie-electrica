@@ -70,5 +70,5 @@ jobs:
       # Profilul s-ar reface oricum la schimbarea linkului, dar fortam recitirea
       # si cand linkul e acelasi (ex: PDF-ul de la aceeasi adresa a fost actualizat)
       reface_profil: true
-    # fara asta, deploy.yml (apelat din refresh-jobs) nu vede WIDGET_TOKEN
+    # fara asta, deploy.yml (apelat din refresh-jobs) nu vede WIDGET_APP_PRIVATE_KEY
     secrets: inherit
